@@ -53,7 +53,7 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    background-color: white;
+    background-color: rgb(230, 230, 230);
 
     /*
     background-color: blue;
@@ -120,13 +120,20 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 45px;
+    padding-top: 45px;
     background-color: white;
-    width: 735px;
+    width: 100%;
 
     /*
     background-color: crimson;
     */
+}
+
+.descricao-text{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 1303;
 }
 
 #sobre-mim{
@@ -134,4 +141,48 @@ body{
     text-align: center;
     border-bottom: 1px solid;
     border-color: gray;
+    width: 735px;
+}
+
+.mais-inf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    font-family: 'my font';
+    font-size: 25px;
+}
+
+#conhecimentos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tec{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#text-conhecimento{
+    margin: auto;
+}
+
+.item-tec{
+    margin: auto;
+    width: 60px;
+}
+
+#desenvolvimento{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+#text-desenvolvimento{
+    margin: auto;
 }
