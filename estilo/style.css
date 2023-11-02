@@ -188,3 +188,39 @@ body{
 #text-desenvolvimento{
     margin: auto;
 }
+
+.area-cv{
+    background-color: #4c68d7;
+    width: 100%;
+    height: 500px;
+    border-top: solid 1px;
+    border-color: gray;
+}
+
+.meu-cv{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    /*
+    background-color: #8a3ab9;
+    */
+    font-family: 'my font';
+    font-size: 50px;
+    background-color: white;
+
+    text-decoration: underline 1px gray;
+}
+
+.curriculo{
+    display: flex;
+    justify-content: center;
+    /*
+    background-color: #fbad50;
+    */
+    background-color: rgb(230, 230, 230);
+}
+
+#cv{
+    padding-top: 20px;
+    width: 700px;
+}
