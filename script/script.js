@@ -1,13 +1,45 @@
 // ----- FUNÇÕES -----
+// funções informações
+    // função formação
+    function entrarMouseBotaoAbaFormacao(){
+        formacao.style.color = '#69818D'
+    }
+    function sairMouseBotaoAbaFormacao(){
+        formacao.style.color = 'white'
+    }
+    // função contact
+    function entrarMouseBotaoAbaContact(){
+        contact.style.color = '#69818D'
+    }
+    function sairMouseBotaoAbaContact(){
+        contact.style.color = 'white'
+    }
+    // função github
+    function entrarMouseBotaoAbaGithub(){
+        github.style.color = '#69818D'
+    }
+    function sairMouseBotaoAbaGithub(){
+        github.style.color = 'white'
+    }
+    //função linkedin
+    function entrarMouseBotaoAbaLinkedin(){
+        linkedin.style.color = '#69818D'
+    }
+    function sairMouseBotaoAbaLinkedin(){
+        linkedin.style.color = 'white'
+    }
+
 // funções do botão da aba lateral
 function entrarMouseBotaoAbaLateral(){
     aba_do_botao_da_aba_lateral.style.backgroundColor = '#2D4A53'
     aba_do_botao_da_aba_lateral.style.borderRadius = '4px'
 }
+
 function sairMouseBotaoAbaLateral(){
     aba_do_botao_da_aba_lateral.style.backgroundColor = '#0D1F23'
     aba_do_botao_da_aba_lateral.style.borderRadius = '0px'
 }
+
 function clicarMouseBotaoAbaLateral(){
     let aba_lateral = document.createElement('div')
     aba_lateral.setAttribute('id', 'aba-lateral')
@@ -15,7 +47,7 @@ function clicarMouseBotaoAbaLateral(){
 
     corpo.insertBefore(aba_lateral, cabecalho_e_menu)
     aba_lateral.style.width = '300px'
-    aba_lateral.style.height = '2021px'
+    aba_lateral.style.height = '925px'
     aba_lateral.style.overflowY = 'scroll'
 
     botao_e_portfolio.removeChild(aba_do_botao_da_aba_lateral)
@@ -85,25 +117,23 @@ function clicarMouseBotaoAbaLateral(){
 // ----- VARIÁVEIS -----
 // body
 let corpo = document.getElementById('corpo')
-
 // variáveis do botão da aba lateral
 let botao_da_aba_lateral = document.getElementById('botao-aba-lateral')
-let aba_do_botao_da_aba_lateral =  document.getElementById('aba-botao-aba-lateral')
-
-//div botao e portifolio
-let botao_e_portfolio = document.getElementById('aba-botao-aba-lateral-e-portfolio')
+    // div que contem o botao lateral
+    let aba_do_botao_da_aba_lateral =  document.getElementById('aba-botao-aba-lateral')
 
 // variável cabecalho e menu
 let cabecalho_e_menu = document.getElementById('cabecalho-e-menu')
-
-//variável cabecalho
-let cabecalho = document.getElementById('cabecalho')
-
-// div que contem o botao lateral
-let aba_botao_abrir_aba_lateral = document.getElementById('aba-botao-aba-lateral')
-
-// variável div das navegações
-let informacoes = document.getElementById('informacoes')
+    //variável cabecalho
+    let cabecalho = document.getElementById('cabecalho')
+    //div botao e portifolio
+    let botao_e_portfolio = document.getElementById('aba-botao-aba-lateral-e-portfolio')
+    // variável div das navegações
+    let informacoes = document.getElementById('informacoes')
+    let formacao = document.getElementById('formacao')
+    let contact = document.getElementById('contact')
+    let github =  document.getElementById('github')
+    let linkedin = document.getElementById('linkedin')
 
 // variável do menu principal
 const menu_principal = document.querySelector('.menu')
@@ -115,3 +145,17 @@ const menu_principal = document.querySelector('.menu')
 botao_da_aba_lateral.addEventListener('mouseenter', entrarMouseBotaoAbaLateral)
 botao_da_aba_lateral.addEventListener('mouseout', sairMouseBotaoAbaLateral)
 botao_da_aba_lateral.addEventListener('click', clicarMouseBotaoAbaLateral)
+
+// eventos dos botões de navegação do header 'informações'
+    // formação
+    formacao.addEventListener('mouseenter', entrarMouseBotaoAbaFormacao)
+    formacao.addEventListener('mouseout', sairMouseBotaoAbaFormacao)
+    // contact
+    contact.addEventListener('mouseenter', entrarMouseBotaoAbaContact)
+    contact.addEventListener('mouseout', sairMouseBotaoAbaContact)
+    // github
+    github.addEventListener('mouseenter', entrarMouseBotaoAbaGithub)
+    github.addEventListener('mouseout', sairMouseBotaoAbaGithub)
+    // linkedin
+    linkedin.addEventListener('mouseenter', entrarMouseBotaoAbaLinkedin)
+    linkedin.addEventListener('mouseout', sairMouseBotaoAbaLinkedin)

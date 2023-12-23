@@ -6,6 +6,8 @@ palheta de cores
 #69818D
 #AFB3B7
 #5A636A
+
+
 */
 
 @font-face{
@@ -97,6 +99,9 @@ body{
 #portfolio{
     font-size: 40px;
     font-family: 'portfolio';
+    color: white;
+    border: 0px;
+    background-color: #0D1F23;
 }
 
 #aba-botao-aba-lateral{
@@ -119,7 +124,7 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    background-color: #AFB3B7;
+    
 
     /*
     background-color: blue;
@@ -151,8 +156,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 410px;
-    height: 410px;
+    width: 390px;
+    height: 390px;
     background-image: linear-gradient(to left, #8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7);
     border-radius: 50%;
 }
@@ -162,8 +167,8 @@ body{
     border-color: white;
     border-radius: 50%;
     background-color: white;
-    width: 370px;
-    height: 370px;
+    width: 350px;
+    height: 350px;
 }
 
 .inf-perfil{
@@ -181,14 +186,68 @@ body{
 
 #jonatas-santos{
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 45px;
+}
+
+#front-end{
+    color: #2D4A53;
+}
+
+#aba-botao-sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    gap: 15px;
+}
+
+#botao-curriculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: white;
+    color: #2D4A53;
+    font-family: 'my font';
+    width: 120px;
+    height: 45px;
+    border: solid #2D4A53;
+}
+
+#botao-sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: #2D4A53;
+    color: white;
+    font-family: 'my font';
+    width: 120px;
+    height: 45px;
+
+    /*
+palheta de cores
+#0D1F23
+#132E35
+#2D4A53
+#69818D
+#AFB3B7
+#5A636A
+*/
 }
 
 .descricao{
     display: flex;
     justify-content: center;
     margin: auto;
-    padding-top: 45px;
+    padding-top: 65px;
     background-color: white;
     width: 100%;
 
@@ -201,6 +260,8 @@ body{
     display: flex;
     justify-content: center;
     background-color: white;
+    width: 620px;
+    margin-top: 10px;
     /*
 palheta de cores
 #0D1F23
@@ -214,15 +275,40 @@ palheta de cores
 
 #sobre-mim{
     font-family: 'my font';
+    font-size: 16px;
     text-align: center;
-    border-bottom: 1px solid;
-    border-color: gray;
-    width: 710px;
-    color: white;
+    width: 620px;
+    text-align: left;
+    color: black;
     border-radius: 10px;
-    margin-top: 5px;
-    padding: 10px;
-    background-color: #0D1F23;
+    margin-top: 0px;
+    background-color: white;
+}
+
+#aba-simbolo-codigo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: white;
+    width: 100%;
+    height: 135px;
+}
+
+#cdg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #132E35;
+    font-size: 40px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+}
+
+#aba-mais-inf{
+    width: 100%;
+    background-color: #132E35;
 }
 
 .mais-inf{
@@ -231,7 +317,8 @@ palheta de cores
     flex-direction: column;
     padding-top: 30px;
     margin: auto;
-    background-color: #AFB3B7;
+    width: 300px;
+    background-color: #132E35;
     font-family: 'my font';
     font-size: 25px;
 }
@@ -250,7 +337,7 @@ palheta de cores
 
 #text-conhecimento{
     margin: auto;
-    color: #132E35;
+    color: white;
 }
 
 .item-tec{
@@ -267,41 +354,5 @@ palheta de cores
 
 #text-desenvolvimento{
     margin: auto;
-    color: #132E35;
-}
-
-.area-cv{
-    background-color: #4c68d7;
-    width: 100%;
-    height: 500px;
-    border-top: solid 1px;
-    border-color: gray;
-}
-
-.meu-cv{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    /*
-    background-color: #8a3ab9;
-    */
-    font-family: 'my font';
-    font-size: 50px;
-    background-color: white;
-
-    text-decoration: underline 1px gray;
-}
-
-.curriculo{
-    display: flex;
-    justify-content: center;
-    /*
-    background-color: #fbad50;
-    */
-    background-color: #AFB3B7;
-}
-
-#cv{
-    padding-top: 20px;
-    width: 700px;
+    color: white;
 }
