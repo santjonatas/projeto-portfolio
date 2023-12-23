@@ -35,7 +35,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: #4c68d7; 
+    background-color: white; 
 }
 
 #cabecalho-e-menu{
@@ -119,7 +119,7 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    background-color: rgb(230, 230, 230);
+    background-color: #AFB3B7;
 
     /*
     background-color: blue;
@@ -231,7 +231,7 @@ palheta de cores
     flex-direction: column;
     padding-top: 30px;
     margin: auto;
-    background-color: rgb(230, 230, 230);
+    background-color: #AFB3B7;
     font-family: 'my font';
     font-size: 25px;
 }
@@ -250,6 +250,7 @@ palheta de cores
 
 #text-conhecimento{
     margin: auto;
+    color: #132E35;
 }
 
 .item-tec{
@@ -266,6 +267,7 @@ palheta de cores
 
 #text-desenvolvimento{
     margin: auto;
+    color: #132E35;
 }
 
 .area-cv{
@@ -296,7 +298,7 @@ palheta de cores
     /*
     background-color: #fbad50;
     */
-    background-color: rgb(230, 230, 230);
+    background-color: #AFB3B7;
 }
 
 #cv{
