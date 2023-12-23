@@ -2,28 +2,28 @@
 // funções informações
     // função formação
     function entrarMouseBotaoAbaFormacao(){
-        formacao.style.color = '#69818D'
+        formacao.style.color = '#02735E'
     }
     function sairMouseBotaoAbaFormacao(){
         formacao.style.color = 'white'
     }
     // função contact
     function entrarMouseBotaoAbaContact(){
-        contact.style.color = '#69818D'
+        contact.style.color = '#02735E'
     }
     function sairMouseBotaoAbaContact(){
         contact.style.color = 'white'
     }
     // função github
     function entrarMouseBotaoAbaGithub(){
-        github.style.color = '#69818D'
+        github.style.color = '#02735E'
     }
     function sairMouseBotaoAbaGithub(){
         github.style.color = 'white'
     }
     //função linkedin
     function entrarMouseBotaoAbaLinkedin(){
-        linkedin.style.color = '#69818D'
+        linkedin.style.color = '#02735E'
     }
     function sairMouseBotaoAbaLinkedin(){
         linkedin.style.color = 'white'
@@ -32,30 +32,30 @@
 // funções do menu principal
     // sobre mim
     function entrarMouseBotaoSobreMim(){
-        sobre_mim.style.backgroundColor = '#132E35'
+        sobre_mim.style.backgroundImage = 'linear-gradient(to left, #000d18, #001f2b, #023b3b)'
     }
     function sairMouseBotaoSobreMim(){
-        sobre_mim.style.backgroundColor = '#2D4A53'
+        sobre_mim.style.backgroundImage = 'linear-gradient(to left, #011526, #012E40, #025959)'
     }
     // currículo
     function entrarMouseBotaoCurriculo(){
-        botao_curriculo.style.border = 'solid 3px #132E35'
-        botao_curriculo.style.color = '#132E35'
+        botao_curriculo.style.border = 'solid 3px #012E40'
+        botao_curriculo.style.color = '#012E40'
         botao_curriculo.style.fontSize = '22px'
     }
     function sairMouseBotaoCurriculo(){
-        botao_curriculo.style.border = 'solid 2px #2D4A53'
-        botao_curriculo.style.color = '#2D4A53'
+        botao_curriculo.style.border = 'solid 2px #025959'
+        botao_curriculo.style.color = '#025959'
     }
 
 // funções do botão da aba lateral
 function entrarMouseBotaoAbaLateral(){
-    aba_do_botao_da_aba_lateral.style.backgroundColor = '#2D4A53'
+    aba_do_botao_da_aba_lateral.style.backgroundColor = '#012E40'
     aba_do_botao_da_aba_lateral.style.borderRadius = '4px'
 }
 
 function sairMouseBotaoAbaLateral(){
-    aba_do_botao_da_aba_lateral.style.backgroundColor = '#0D1F23'
+    aba_do_botao_da_aba_lateral.style.backgroundColor = '#011526'
     aba_do_botao_da_aba_lateral.style.borderRadius = '0px'
 }
 
@@ -80,7 +80,7 @@ function clicarMouseBotaoAbaLateral(){
     header_aba_lateral.style.width = '100%'
     header_aba_lateral.style.height = '61px'
     aba_lateral.appendChild(header_aba_lateral)
-    header_aba_lateral.style.backgroundColor = '#0D1F23'
+    header_aba_lateral.style.backgroundColor = '#011526'
     /*
     header_aba_lateral.style.position = 'fixed'
     */
@@ -102,7 +102,7 @@ function clicarMouseBotaoAbaLateral(){
     aba_botao_fechar_aba_lateral.style.justifyContent = 'center'
     aba_botao_fechar_aba_lateral.style.alignItems = 'center'
     aba_botao_fechar_aba_lateral.style.borderRadius = '4px'
-    aba_botao_fechar_aba_lateral.style.backgroundColor = '#69818D'
+    aba_botao_fechar_aba_lateral.style.backgroundColor = '#025959'
     aba_botao_fechar_aba_lateral.style.marginLeft = '45px'
     header_aba_lateral.appendChild(aba_botao_fechar_aba_lateral)
     aba_botao_fechar_aba_lateral.appendChild(botao_fechar_aba_lateral)
@@ -110,13 +110,13 @@ function clicarMouseBotaoAbaLateral(){
     let portfolio = document.getElementById('portfolio')
 
     function entrarMouseBotaoAbaLateralDeFechar(){
-        aba_botao_fechar_aba_lateral.style.backgroundColor = '#2D4A53'
+        aba_botao_fechar_aba_lateral.style.backgroundColor = '#012E40'
     }
     function sairMouseBotaoAbaLateralDeFechar(){
-        aba_botao_fechar_aba_lateral.style.backgroundColor = '#69818D'
+        aba_botao_fechar_aba_lateral.style.backgroundColor = '#025959'
     }
     function clicarMouseBotaoAbaLateralParaFechar(){
-        aba_botao_fechar_aba_lateral.style.backgroundColor = '#132E35'
+        aba_botao_fechar_aba_lateral.style.backgroundColor = '#02735E'
 
         corpo.removeChild(aba_lateral)
         botao_e_portfolio.insertBefore(aba_do_botao_da_aba_lateral, portfolio)

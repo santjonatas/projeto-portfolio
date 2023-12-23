@@ -1,11 +1,10 @@
 /*
 palheta de cores
-#0D1F23
-#132E35
-#2D4A53
-#69818D
-#AFB3B7
-#5A636A
+#011526
+#012E40
+#025959
+#02735E
+#038C65
 
 
 */
@@ -59,7 +58,7 @@ body{
     width: 100%;
     height: 61px;
     position: fixed;
-    background-color: #0D1F23;
+    background-color: #011526;
     color: white;
     font-size: 17px;
     font-family: 'my font';
@@ -81,7 +80,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #0D1F23;
+    background-color: #011526;
     color: white;
     border: none;
     font-family: 'my font';
@@ -101,7 +100,7 @@ body{
     font-family: 'portfolio';
     color: white;
     border: 0px;
-    background-color: #0D1F23;
+    background-color: #011526;
 }
 
 #aba-botao-aba-lateral{
@@ -111,7 +110,7 @@ body{
     margin: auto;
     width: 30px;
     height: 30px;
-    background-color: #0D1F23;
+    background-color: #011526;
 }
 
 #botao-aba-lateral{
@@ -158,7 +157,7 @@ body{
     align-items: center;
     width: 390px;
     height: 390px;
-    background-image: linear-gradient(to left, #8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7);
+    background-image: linear-gradient(to left, #011526, rgb(39, 187, 105), #012E40, #025959, #24917d, #038C65);
     border-radius: 50%;
 }
 
@@ -190,7 +189,7 @@ body{
 }
 
 #front-end{
-    color: #2D4A53;
+    color: #02735E;
 }
 
 #aba-botao-sobre-mim{
@@ -211,11 +210,11 @@ body{
     font-size: 22px;
     border-radius: 7px;
     background-color: white;
-    color: #2D4A53;
+    color: #025959;
     font-family: 'my font';
     width: 120px;
     height: 45px;
-    border: solid 2px #2D4A53;
+    border: solid 2px #025959;
 }
 
 #botao-sobre-mim{
@@ -225,20 +224,16 @@ body{
     font-size: 22px;
     border-radius: 7px;
     border: 0px;
-    background-color: #2D4A53;
+    background-image: linear-gradient(to left, #011526, #012E40, #025959);
     color: white;
     font-family: 'my font';
     width: 120px;
     height: 45px;
-
     /*
 palheta de cores
-#0D1F23
-#132E35
-#2D4A53
-#69818D
-#AFB3B7
-#5A636A
+#000d18
+#001f2b
+#023b3b
 */
 }
 
@@ -288,17 +283,21 @@ palheta de cores
     display: flex;
     justify-content: center;
     align-items: end;
+    margin: auto;
     background-color: white;
     width: 100%;
-    height: 135px;
+    height: 140px;
+
+    
 }
 
 #cdg{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     color: white;
-    background-color: #132E35;
+    background-image: linear-gradient(to left, #011526, #012E40, #025959, #02735E, #038C65);
     font-size: 40px;
     height: 50px;
     width: 100%;
@@ -306,8 +305,11 @@ palheta de cores
 }
 
 #aba-mais-inf{
+    display: flex;
+    justify-content: center;
+    margin: auto;
     width: 100%;
-    background-color: #132E35;
+    background-image: linear-gradient(to left, #011526, #012E40, #025959, #02735E, #038C65);
 }
 
 .mais-inf{
@@ -316,8 +318,11 @@ palheta de cores
     flex-direction: column;
     padding-top: 30px;
     margin: auto;
+    margin: 20px;
     width: 300px;
-    background-color: #132E35;
+    height: 270px;
+    background-color: #012E40;
+    border-radius: 10px;
     font-family: 'my font';
     font-size: 25px;
 }
@@ -332,16 +337,18 @@ palheta de cores
     display: flex;
     justify-content: center;
     padding: 10px;
+    gap: 20px;
 }
 
 #text-conhecimento{
     margin: auto;
     color: white;
+    font-size: 22px;
 }
 
 .item-tec{
-    margin: auto;
-    width: 60px;
+    margin: 0px;
+    width: 45px;
 }
 
 #desenvolvimento{
@@ -352,6 +359,7 @@ palheta de cores
 }
 
 #text-desenvolvimento{
-    margin: auto;
     color: white;
+    margin: auto;
+    font-size: 22px;
 }
