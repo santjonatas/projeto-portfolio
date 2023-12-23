@@ -29,6 +29,25 @@
         linkedin.style.color = 'white'
     }
 
+// funções do menu principal
+    // sobre mim
+    function entrarMouseBotaoSobreMim(){
+        sobre_mim.style.backgroundColor = '#132E35'
+    }
+    function sairMouseBotaoSobreMim(){
+        sobre_mim.style.backgroundColor = '#2D4A53'
+    }
+    // currículo
+    function entrarMouseBotaoCurriculo(){
+        botao_curriculo.style.border = 'solid 3px #132E35'
+        botao_curriculo.style.color = '#132E35'
+        botao_curriculo.style.fontSize = '22px'
+    }
+    function sairMouseBotaoCurriculo(){
+        botao_curriculo.style.border = 'solid 2px #2D4A53'
+        botao_curriculo.style.color = '#2D4A53'
+    }
+
 // funções do botão da aba lateral
 function entrarMouseBotaoAbaLateral(){
     aba_do_botao_da_aba_lateral.style.backgroundColor = '#2D4A53'
@@ -137,6 +156,9 @@ let cabecalho_e_menu = document.getElementById('cabecalho-e-menu')
 
 // variável do menu principal
 const menu_principal = document.querySelector('.menu')
+    // sobre mim
+    let sobre_mim = document.getElementById('botao-sobre-mim')
+    let botao_curriculo = document.getElementById('botao-curriculo')
 
 
 
@@ -159,3 +181,11 @@ botao_da_aba_lateral.addEventListener('click', clicarMouseBotaoAbaLateral)
     // linkedin
     linkedin.addEventListener('mouseenter', entrarMouseBotaoAbaLinkedin)
     linkedin.addEventListener('mouseout', sairMouseBotaoAbaLinkedin)
+
+// eventos menu principal
+    // sobre mim
+    sobre_mim.addEventListener('mouseenter', entrarMouseBotaoSobreMim)
+    sobre_mim.addEventListener('mouseout', sairMouseBotaoSobreMim)
+    // currículo
+    botao_curriculo.addEventListener('mouseenter', entrarMouseBotaoCurriculo)
+    botao_curriculo.addEventListener('mouseout', sairMouseBotaoCurriculo)
