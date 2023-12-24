@@ -5,8 +5,6 @@ palheta de cores
 #025959
 #02735E
 #038C65
-
-
 */
 
 @font-face{
@@ -28,13 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    
     margin: 0px;
-
-
-    /*
-    background-color: aqua;
-    */
     background-color: rgb(10, 10, 10);
 }
 
@@ -57,29 +49,20 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*
-    gap: 40%;
-    */
     gap: 50%;
     width: 100%;
     height: 61px;
     position: fixed;
-    
-    background-color: #011526;
-    
     color: white;
     font-size: 17px;
     font-family: 'my font';
-
-
-
-    background-image: linear-gradient(to left, #011526, #001722, #011526);
+    box-shadow: 0px 0px 5px #003535;
+    background-color: #01101d;
 }
 
 #informacoes{
     display: flex;
     justify-content: center;
-    
     align-items: center;
     gap: 7px;
     width: 250px;
@@ -111,10 +94,8 @@ body{
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
-
     font-size: 40px;
     font-family: 'portfolio';
-    
     border: 0px;
     background-color: #011526;
 }
@@ -139,9 +120,6 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    /*
-    background-color: blue;
-    */
     background-image: url('../img/wallpaper_menu1.jpg');
     background-position: center;
     background-position-y: top;
@@ -154,17 +132,10 @@ body{
     justify-content: center;
     background-color: rgba(255, 255, 255, 0);
     gap: 90px;
-    /*
-    background-color: blueviolet;
-    */
 }
 
 .foto-de-perfil{
     background-color: rgba(255, 255, 255, 0);
-
-    /*
-    background-color: chartreuse;
-    */
 }
 
 #gradient{
@@ -190,14 +161,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     font-family: 'my font';
     font-size: 50px;
     background-color: rgba(255, 255, 255, 0);
-
-    /*
-    background-color: brown;
-    */
 }
 
 #aba-ola-mundo{
@@ -214,7 +180,6 @@ body{
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
-
     display: flex;
     align-items: center;
     margin-right: 17%;
@@ -288,10 +253,6 @@ body{
     padding-top: 65px;
     background-color: rgba(255, 255, 255, 0);
     width: 100%;
-
-    /*
-    background-color: crimson;
-    */
 }
 
 .descricao-text{
@@ -300,15 +261,6 @@ body{
     background-color: rgba(255, 255, 255, 0);
     width: 620px;
     margin-top: 10px;
-    /*
-palheta de cores
-#0D1F23
-#132E35
-#2D4A53
-#69818D
-#AFB3B7
-#5A636A
-*/
 }
 
 #sobre-mim{
