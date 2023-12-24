@@ -16,17 +16,30 @@
     }
     // função github
     function entrarMouseBotaoAbaGithub(){
-        github.style.color = '#02735E'
+        github.style.boxShadow = '1px 1px 10px rgb(211, 211, 211)'
+        github.style.borderRadius = '50px'
     }
     function sairMouseBotaoAbaGithub(){
-        github.style.color = 'white'
+        github.style.boxShadow = 'none'
+        github.style.borderRadius = ''
     }
     //função linkedin
     function entrarMouseBotaoAbaLinkedin(){
-        linkedin.style.color = '#02735E'
+        linkedin.style.boxShadow = '1px 1px 10px rgb(211, 211, 211)'
+        linkedin.style.borderRadius = '7px'
     }
     function sairMouseBotaoAbaLinkedin(){
-        linkedin.style.color = 'white'
+        linkedin.style.boxShadow = 'none'
+        linkedin.style.borderRadius = ''
+    }
+    //função instagram
+    function entrarMouseBotaoAbaInstagram(){
+        instagram.style.boxShadow = '1px 1px 10px rgb(211, 211, 211)'
+        instagram.style.borderRadius = '12px'
+    }
+    function sairMouseBotaoAbaInstagram(){
+        instagram.style.boxShadow = 'none'
+        instagram.style.borderRadius = ''
     }
 
 // funções do menu principal
@@ -72,7 +85,7 @@ function clicarMouseBotaoAbaLateral(){
     botao_e_portfolio.removeChild(aba_do_botao_da_aba_lateral)
 
     cabecalho.style.justifyContent = 'start'
-    cabecalho.style.gap = '35%'
+    cabecalho.style.gap = '45%'
     botao_e_portfolio.style.marginLeft = '70px'
 
     let header_aba_lateral = document.createElement('div')
@@ -106,28 +119,6 @@ function clicarMouseBotaoAbaLateral(){
     aba_botao_fechar_aba_lateral.style.marginLeft = '45px'
     header_aba_lateral.appendChild(aba_botao_fechar_aba_lateral)
     aba_botao_fechar_aba_lateral.appendChild(botao_fechar_aba_lateral)
-
-
-
-
-
-
-
-    
-    aba_lateral.addEventListener('scroll', function(event){
-        cabecalho_e_menu.style.overflow = 'hidden'
-        cabecalho_e_menu.style.position = 'fixed'
-    })
-
-    cabecalho_e_menu.addEventListener('scroll', function(event){
-        aba_lateral.style.overflow = 'hidden'
-        aba_lateral.style.position = 'fixed'
-    })
-    
-
-
-
-
 
     let portfolio = document.getElementById('portfolio')
 
@@ -175,6 +166,7 @@ let cabecalho_e_menu = document.getElementById('cabecalho-e-menu')
     let contact = document.getElementById('contact')
     let github =  document.getElementById('github')
     let linkedin = document.getElementById('linkedin')
+    let instagram = document.getElementById('instagram')
 
 // variável do menu principal
 const menu_principal = document.querySelector('.menu')
@@ -203,6 +195,9 @@ botao_da_aba_lateral.addEventListener('click', clicarMouseBotaoAbaLateral)
     // linkedin
     linkedin.addEventListener('mouseenter', entrarMouseBotaoAbaLinkedin)
     linkedin.addEventListener('mouseout', sairMouseBotaoAbaLinkedin)
+    //instagram
+    instagram.addEventListener('mouseenter', entrarMouseBotaoAbaInstagram)
+    instagram.addEventListener('mouseout', sairMouseBotaoAbaInstagram)
 
 // eventos menu principal
     // sobre mim
