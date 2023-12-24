@@ -45,7 +45,7 @@
 // funções do menu principal
     // sobre mim
     function entrarMouseBotaoSobreMim(){
-        sobre_mim.style.backgroundImage = 'linear-gradient(to left, #000d18, #001f2b, #023b3b)'
+        sobre_mim.style.backgroundImage = 'linear-gradient(to left, #000d28, #001f3b, #023b4b)'
         sobre_mim.style.boxShadow = '0px 0px 17px #24917d'
     }
     function sairMouseBotaoSobreMim(){
@@ -54,8 +54,8 @@
     }
     // currículo
     function entrarMouseBotaoCurriculo(){
-        botao_curriculo.style.border = 'solid 3px #02735E'
-        botao_curriculo.style.color = '#02735E'
+        botao_curriculo.style.border = 'solid 2px #00aa9b'
+        botao_curriculo.style.color = '#00aa9b'
         botao_curriculo.style.fontSize = '22px'
         botao_curriculo.style.boxShadow = '0px 0px 17px #24917d'
     }
@@ -73,7 +73,7 @@ function entrarMouseBotaoAbaLateral(){
 }
 
 function sairMouseBotaoAbaLateral(){
-    aba_do_botao_da_aba_lateral.style.backgroundColor = '#011526'
+    aba_do_botao_da_aba_lateral.style.backgroundColor = '#01101d'
     aba_do_botao_da_aba_lateral.style.borderRadius = '0px'
     aba_do_botao_da_aba_lateral.style.boxShadow = 'none'
 }
@@ -215,3 +215,5 @@ botao_da_aba_lateral.addEventListener('click', clicarMouseBotaoAbaLateral)
     // currículo
     botao_curriculo.addEventListener('mouseenter', entrarMouseBotaoCurriculo)
     botao_curriculo.addEventListener('mouseout', sairMouseBotaoCurriculo)
+
+    console.log('hello, world!')

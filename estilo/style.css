@@ -196,7 +196,7 @@ body{
 }
 
 #front-end{
-    background-image: linear-gradient(to left, #025959, #24917d, #038C65);
+    background-image: linear-gradient(to left, #025959, #24917d, #038C65, rgb(39, 187, 105));
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
@@ -222,7 +222,7 @@ body{
     align-items: center;
     font-size: 22px;
     border-radius: 7px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(151, 6, 6, 0);
     color: #00aa8b;
     font-family: 'my font';
     width: 120px;
