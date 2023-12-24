@@ -39,13 +39,13 @@
     }
     // currículo
     function entrarMouseBotaoCurriculo(){
-        botao_curriculo.style.border = 'solid 3px #012E40'
-        botao_curriculo.style.color = '#012E40'
+        botao_curriculo.style.border = 'solid 3px #02735E'
+        botao_curriculo.style.color = '#02735E'
         botao_curriculo.style.fontSize = '22px'
     }
     function sairMouseBotaoCurriculo(){
-        botao_curriculo.style.border = 'solid 2px #025959'
-        botao_curriculo.style.color = '#025959'
+        botao_curriculo.style.border = 'solid 2px #00aa8b'
+        botao_curriculo.style.color = '#00aa8b'
     }
 
 // funções do botão da aba lateral
@@ -106,6 +106,28 @@ function clicarMouseBotaoAbaLateral(){
     aba_botao_fechar_aba_lateral.style.marginLeft = '45px'
     header_aba_lateral.appendChild(aba_botao_fechar_aba_lateral)
     aba_botao_fechar_aba_lateral.appendChild(botao_fechar_aba_lateral)
+
+
+
+
+
+
+
+    /*
+    aba_lateral.addEventListener('scroll', function(event){
+        cabecalho_e_menu.style.overflow = 'hidden'
+        cabecalho_e_menu.style.position = 'fixed'
+    })
+
+    cabecalho_e_menu.addEventListener('scroll', function(event){
+        aba_lateral.style.overflow = 'hidden'
+        aba_lateral.style.position = 'fixed'
+    })
+    */
+
+
+
+
 
     let portfolio = document.getElementById('portfolio')
 

@@ -62,7 +62,6 @@ body{
     color: white;
     font-size: 17px;
     font-family: 'my font';
-    border-bottom: 1px solid;
 }
 
 #informacoes{
@@ -128,23 +127,30 @@ body{
     /*
     background-color: blue;
     */
+    
+    
+    background-image: url('/img/IMG_76931.jpg');
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
 }
 
 .perfil{
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     gap: 90px;
-
-
     /*
     background-color: blueviolet;
     */
 }
 
 .foto-de-perfil{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 
     /*
     background-color: chartreuse;
@@ -155,28 +161,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 390px;
-    height: 390px;
+    width: 360px;
+    height: 360px;
     background-image: linear-gradient(to left, #011526, rgb(39, 187, 105), #012E40, #025959, #24917d, #038C65);
     border-radius: 50%;
 }
 
 #foto-perfil{
     border: 10px solid;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0);
     border-radius: 50%;
-    background-color: white;
-    width: 350px;
-    height: 350px;
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 320px;
 }
 
 .inf-perfil{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px;
     font-family: 'my font';
     font-size: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 
     /*
     background-color: brown;
@@ -186,20 +193,26 @@ body{
 #jonatas-santos{
     font-weight: bolder;
     font-size: 45px;
+
+    color: white;
 }
 
 #front-end{
-    color: #02735E;
+    background-image: linear-gradient(to left, #025959, #24917d, #038C65);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
 }
 
 #aba-botao-sobre-mim{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 40px;
     width: 100%;
     height: 60px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     gap: 15px;
 }
 
@@ -209,12 +222,12 @@ body{
     align-items: center;
     font-size: 22px;
     border-radius: 7px;
-    background-color: white;
-    color: #025959;
+    background-color: rgba(255, 255, 255, 0);
+    color: #00aa8b;
     font-family: 'my font';
     width: 120px;
     height: 45px;
-    border: solid 2px #025959;
+    border: solid 2px #00aa8b;
 }
 
 #botao-sobre-mim{
@@ -225,7 +238,7 @@ body{
     border-radius: 7px;
     border: 0px;
     background-image: linear-gradient(to left, #011526, #012E40, #025959);
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'my font';
     width: 120px;
     height: 45px;
@@ -242,7 +255,7 @@ palheta de cores
     justify-content: center;
     margin: auto;
     padding-top: 65px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     width: 100%;
 
     /*
@@ -253,7 +266,7 @@ palheta de cores
 .descricao-text{
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     width: 620px;
     margin-top: 10px;
     /*
@@ -273,10 +286,16 @@ palheta de cores
     text-align: center;
     width: 620px;
     text-align: left;
-    color: black;
+    color: white;
     border-radius: 10px;
     margin-top: 0px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: normal;
+}
+
+#separador-menu-conhec{
+    width: 100%;
+    height: 170px;
 }
 
 #aba-simbolo-codigo{
@@ -284,11 +303,10 @@ palheta de cores
     justify-content: center;
     align-items: end;
     margin: auto;
-    background-color: white;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0);
     width: 100%;
     height: 140px;
-
-    
 }
 
 #cdg{
