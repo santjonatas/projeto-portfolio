@@ -60,7 +60,7 @@ body{
     /*
     gap: 40%;
     */
-    gap: 40%;
+    gap: 50%;
     width: 100%;
     height: 61px;
     position: fixed;
@@ -101,9 +101,14 @@ body{
 }
 
 #portfolio{
+    background-image: linear-gradient(to left, #ffffff, #c4c4c4, #e2e2e2);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+
     font-size: 40px;
     font-family: 'portfolio';
-    color: white;
+    
     border: 0px;
     background-color: #011526;
 }
@@ -165,6 +170,7 @@ body{
     background-image: linear-gradient(to left, #011526, rgb(39, 187, 105), #012E40, #025959, #24917d, #038C65);
     border-radius: 50%;
     margin: 10px;
+    box-shadow: 0px 0px 27px #24917d;
 } 
 
 #foto-perfil{

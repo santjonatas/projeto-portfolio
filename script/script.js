@@ -16,7 +16,7 @@
     }
     // função github
     function entrarMouseBotaoAbaGithub(){
-        github.style.boxShadow = '1px 1px 10px rgb(211, 211, 211)'
+        github.style.boxShadow = '0px 0px 10px rgb(211, 211, 211)'
         github.style.borderRadius = '50px'
     }
     function sairMouseBotaoAbaGithub(){
@@ -25,7 +25,7 @@
     }
     //função linkedin
     function entrarMouseBotaoAbaLinkedin(){
-        linkedin.style.boxShadow = '1px 1px 10px rgb(211, 211, 211)'
+        linkedin.style.boxShadow = '0px 0px 10px rgb(211, 211, 211)'
         linkedin.style.borderRadius = '7px'
     }
     function sairMouseBotaoAbaLinkedin(){
@@ -34,7 +34,7 @@
     }
     //função instagram
     function entrarMouseBotaoAbaInstagram(){
-        instagram.style.boxShadow = '1px 1px 10px rgb(211, 211, 211)'
+        instagram.style.boxShadow = '0px 0px 10px rgb(211, 211, 211)'
         instagram.style.borderRadius = '12px'
     }
     function sairMouseBotaoAbaInstagram(){
@@ -46,19 +46,23 @@
     // sobre mim
     function entrarMouseBotaoSobreMim(){
         sobre_mim.style.backgroundImage = 'linear-gradient(to left, #000d18, #001f2b, #023b3b)'
+        sobre_mim.style.boxShadow = '0px 0px 17px #24917d'
     }
     function sairMouseBotaoSobreMim(){
         sobre_mim.style.backgroundImage = 'linear-gradient(to left, #011526, #012E40, #025959)'
+        sobre_mim.style.boxShadow = 'none'
     }
     // currículo
     function entrarMouseBotaoCurriculo(){
         botao_curriculo.style.border = 'solid 3px #02735E'
         botao_curriculo.style.color = '#02735E'
         botao_curriculo.style.fontSize = '22px'
+        botao_curriculo.style.boxShadow = '0px 0px 17px #24917d'
     }
     function sairMouseBotaoCurriculo(){
         botao_curriculo.style.border = 'solid 2px #00aa8b'
         botao_curriculo.style.color = '#00aa8b'
+        botao_curriculo.style.boxShadow = 'none'
     }
 
 // funções do botão da aba lateral
@@ -135,7 +139,7 @@ function clicarMouseBotaoAbaLateral(){
         botao_e_portfolio.insertBefore(aba_do_botao_da_aba_lateral, portfolio)
 
         cabecalho.style.justifyContent = 'space-around'
-        cabecalho.style.gap = '40%'
+        cabecalho.style.gap = '50%'
         botao_e_portfolio.style.marginLeft = '0px'
     }
 
