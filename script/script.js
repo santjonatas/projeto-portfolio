@@ -50,7 +50,7 @@
     }
     function sairMouseBotaoSobreMim(){
         sobre_mim.style.backgroundImage = 'linear-gradient(to left, #011526, #012E40, #025959)'
-        sobre_mim.style.boxShadow = 'none'
+        sobre_mim.style.boxShadow = '0px 0px 7px #24917d'
     }
     // currículo
     function entrarMouseBotaoCurriculo(){
@@ -62,18 +62,20 @@
     function sairMouseBotaoCurriculo(){
         botao_curriculo.style.border = 'solid 2px #00aa8b'
         botao_curriculo.style.color = '#00aa8b'
-        botao_curriculo.style.boxShadow = 'none'
+        botao_curriculo.style.boxShadow = '0px 0px 7px #24917d'
     }
 
 // funções do botão da aba lateral
 function entrarMouseBotaoAbaLateral(){
     aba_do_botao_da_aba_lateral.style.backgroundColor = '#012E40'
     aba_do_botao_da_aba_lateral.style.borderRadius = '4px'
+    aba_do_botao_da_aba_lateral.style.boxShadow = '0px 0px 10px #24917d'
 }
 
 function sairMouseBotaoAbaLateral(){
     aba_do_botao_da_aba_lateral.style.backgroundColor = '#011526'
     aba_do_botao_da_aba_lateral.style.borderRadius = '0px'
+    aba_do_botao_da_aba_lateral.style.boxShadow = 'none'
 }
 
 function clicarMouseBotaoAbaLateral(){
@@ -128,9 +130,12 @@ function clicarMouseBotaoAbaLateral(){
 
     function entrarMouseBotaoAbaLateralDeFechar(){
         aba_botao_fechar_aba_lateral.style.backgroundColor = '#012E40'
+        aba_botao_fechar_aba_lateral.style.boxShadow = '0px 0px 10px #24917d'
+
     }
     function sairMouseBotaoAbaLateralDeFechar(){
         aba_botao_fechar_aba_lateral.style.backgroundColor = '#025959'
+        aba_botao_fechar_aba_lateral.style.boxShadow = '0px 0px 5px #24917d'
     }
     function clicarMouseBotaoAbaLateralParaFechar(){
         aba_botao_fechar_aba_lateral.style.backgroundColor = '#02735E'

@@ -263,6 +263,7 @@ body{
     width: 120px;
     height: 45px;
     border: solid 2px #00aa8b;
+    box-shadow: 0px 0px 7px #24917d;
 }
 
 #botao-sobre-mim{
@@ -277,12 +278,7 @@ body{
     font-family: 'my font';
     width: 120px;
     height: 45px;
-    /*
-palheta de cores
-#000d18
-#001f2b
-#023b3b
-*/
+    box-shadow: 0px 0px 7px #24917d;
 }
 
 .descricao{
