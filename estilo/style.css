@@ -64,10 +64,16 @@ body{
     width: 100%;
     height: 61px;
     position: fixed;
+    
     background-color: #011526;
+    
     color: white;
     font-size: 17px;
     font-family: 'my font';
+
+
+
+    background-image: linear-gradient(to left, #011526, #001722, #011526);
 }
 
 #informacoes{
@@ -85,7 +91,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #011526;
+    background-color: #01152600;
     color: white;
     border: none;
     font-family: 'my font';
@@ -120,7 +126,7 @@ body{
     margin: auto;
     width: 30px;
     height: 30px;
-    background-color: #011526;
+    background-color: #01152600;
 }
 
 #botao-aba-lateral{
@@ -136,7 +142,7 @@ body{
     /*
     background-color: blue;
     */
-    background-image: url('..//img/wallpaper_menu.jpg');
+    background-image: url('../img/wallpaper_menu1.jpg');
     background-position: center;
     background-position-y: top;
     background-repeat: no-repeat;
