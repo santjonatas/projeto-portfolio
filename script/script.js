@@ -113,7 +113,7 @@ function clicarMouseBotaoAbaLateral(){
 
 
 
-    /*
+    
     aba_lateral.addEventListener('scroll', function(event){
         cabecalho_e_menu.style.overflow = 'hidden'
         cabecalho_e_menu.style.position = 'fixed'
@@ -123,7 +123,7 @@ function clicarMouseBotaoAbaLateral(){
         aba_lateral.style.overflow = 'hidden'
         aba_lateral.style.position = 'fixed'
     })
-    */
+    
 
 
 

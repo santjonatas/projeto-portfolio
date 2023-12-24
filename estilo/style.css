@@ -122,20 +122,14 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    
-
     /*
     background-color: blue;
     */
-    
-    
-    background-image: url('/img/IMG_76931.jpg');
+    background-image: url('..//img/wallpaper_menu.jpg');
     background-position: center;
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: contain;
-    
-    
 }
 
 .perfil{
