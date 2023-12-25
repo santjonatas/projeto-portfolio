@@ -376,10 +376,30 @@ body{
 }
 
 #titulo-my-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#titulo-my{
     color: white;
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px;
+}
+
+#titulo-skills{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px; 
+
+
+    background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .soft-e-hard{
@@ -397,14 +417,14 @@ body{
 #titulo-hard{
     color: white;
     font-family: 'my font';
-    font-size: 27px;
+    font-size: 25px;
     margin: 0px;
 }
 
 #titulo-soft{
     color: white;
     font-family: 'my font';
-    font-size: 27px;
+    font-size: 25px;
     margin: 0px;
 }
 
