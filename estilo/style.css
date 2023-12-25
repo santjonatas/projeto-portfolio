@@ -142,20 +142,47 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 345px;
-    height: 345px;
+    width: 365px;
+    height: 365px;
     background-image: linear-gradient(to left, #011526, rgb(39, 187, 105), #012E40, #025959, #24917d, #038C65);
     border-radius: 50%;
     margin: 10px;
     box-shadow: 0px 0px 27px #24917d;
 } 
 
+#img-meio-gradient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-image: url('../img/wallpaper_gradient.jpg');
+    background-size: contain;
+    background-position: center;
+    width: 345px;
+    height: 345px;
+    border-radius: 50%;
+}
+
+#foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/eu\ lindo\ 1x1.jpg');
+    background-size: contain;
+    background-position: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+/*
 #foto-perfil{
     border-radius: 50%;
     width: 320px;
     height: 320px;
     font-family: 'hello';
 }
+*/
 
 .inf-perfil{
     display: flex;
@@ -284,7 +311,7 @@ body{
     gap: 40px;
     background-color: rgba(255, 0, 0, 0);
     width: 100%;
-    height: 130px;
+    height: 110px;
 }
 
 .links-redes-sociais{

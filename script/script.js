@@ -64,6 +64,13 @@
         botao_curriculo.style.color = '#00aa8b'
         botao_curriculo.style.boxShadow = '0px 0px 7px #24917d'
     }
+    // foto de perfil
+    function entrarMouseBotaoPerfil(){
+        gradient.style.boxShadow = '0px 0px 37px #24917d' 
+    }
+    function sairMouseBotaoPerfil(){
+        gradient.style.boxShadow = '0px 0px 27px #24917d'
+    }
 
 // funções do botão da aba lateral
 function entrarMouseBotaoAbaLateral(){
@@ -182,8 +189,9 @@ const menu_principal = document.querySelector('.menu')
     // sobre mim
     let sobre_mim = document.getElementById('botao-sobre-mim')
     let botao_curriculo = document.getElementById('botao-curriculo')
-
-
+    //foto de perfil
+    let foto_perfil =  document.getElementById('foto-perfil')
+    let gradient = document.getElementById('gradient')
 
 // ----- EVENTOS -----
 // eventos do botão da aba lateral
@@ -215,5 +223,6 @@ botao_da_aba_lateral.addEventListener('click', clicarMouseBotaoAbaLateral)
     // currículo
     botao_curriculo.addEventListener('mouseenter', entrarMouseBotaoCurriculo)
     botao_curriculo.addEventListener('mouseout', sairMouseBotaoCurriculo)
-
-    console.log('hello, world!')
+    // foto de perfil
+    foto_perfil.addEventListener('mouseenter', entrarMouseBotaoPerfil)
+    foto_perfil.addEventListener('mouseout', sairMouseBotaoPerfil)
