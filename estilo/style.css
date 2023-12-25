@@ -120,11 +120,42 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
+    
+
+    /*
     background-image: url('../img/wallpaper_menu1.jpg');
+    
     background-position: center;
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: contain;
+    */
+    
+}
+
+#inicio-da-pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/wallpaper_menu_1.jpg');
+    background-position: center;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    background-size: 1349px, 620px;
+
+
+
+
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0);
+    /*
+    width: 1349px;
+    */
+    width: 100%;
+    height: 620px;
 }
 
 .perfil{
@@ -174,15 +205,6 @@ body{
     height: 320px;
     border-radius: 50%;
 }
-
-/*
-#foto-perfil{
-    border-radius: 50%;
-    width: 320px;
-    height: 320px;
-    font-family: 'hello';
-}
-*/
 
 .inf-perfil{
     display: flex;
@@ -307,15 +329,15 @@ body{
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: top;
     gap: 40px;
     background-color: rgba(255, 0, 0, 0);
     width: 100%;
-    height: 110px;
+    height: 140px;
 }
 
 .links-redes-sociais{
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,67 +351,167 @@ body{
     height: 40px;
 }
 
-#separador-menu-conhec{
-    width: 100%;
-    height: 40px;
-}
-
 #aba-mais-inf{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: auto;
     width: 100%;
+    /*
     background-image: linear-gradient(to left, #011526, #012E40, #025959, #02735E, #038C65);
+    */
+    background-image: linear-gradient(to left, #070707, #080808, #090909);
+    height: 500px;
 }
 
-.mais-inf{
+#skills{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 1100px;
+    height: 410px;
+    background-color: rgba(255, 99, 71, 0);
+}
+
+#titulo-my-skills{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.soft-e-hard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding-top: 30px;
+    background-color: rgba(255, 255, 0, 0);
+    width: 520px;
+    height: 400px;
+
+    gap: 10px;
+}
+
+#titulo-hard{
+    color: white;
+    font-family: 'my font';
+    font-size: 27px;
+    margin: 0px;
+}
+
+#titulo-soft{
+    color: white;
+    font-family: 'my font';
+    font-size: 27px;
+    margin: 0px;
+}
+
+.border-aba-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 475px;
+    height: 330px;
+    background-image: linear-gradient(to left, #025959, #24917d, #038C65, rgb(39, 187, 105));
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 7px #24917d;
+}
+
+#hard-skills{
     margin: auto;
-    margin: 20px;
-    width: 300px;
-    height: 270px;
-    background-color: #012E40;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 465px;
+    height: 320px;
+    /*
+    background-color: rgb(255, 0, 0);
+    */
+    background-color: #080808;
+    border-radius: 5px;
+}
+
+#soft-skills{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 465px;
+    height: 320px;
+    /*
+    background-color: rgb(255, 0, 0);
+    */
+    background-color: #080808;
+    border-radius: 5px;
+}
+
+.item-hard{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    width: 440px;
+    height: 52px;
+    background-color: #012E40; 
+    border-radius: 7px;
+    background-image: linear-gradient(to left, #01425c, #012E40, #011526 );
+}
+
+.item-soft{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    width: 440px;
+    height: 52px;
+    background-color: #012E40; 
+    border-radius: 7px;
+    background-image: linear-gradient(to left, #01425c, #012E40, #011526 );
+}
+
+.tec{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.nome-tec{
+    color: white;
     font-family: 'my font';
     font-size: 25px;
 }
 
-#conhecimentos{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.tec{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 20px;
-}
-
-#text-conhecimento{
-    margin: auto;
+.nome-habilidade{
+    margin-left: 5px;
     color: white;
-    font-size: 22px;
+    font-family: 'my font';
+    font-size: 25px;
 }
 
-.item-tec{
-    margin: 0px;
-    width: 45px;
-}
-
-#desenvolvimento{
+#aba-projetos{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-top: 35px;
-}
+    justify-content: center;
+    background-image: url('../img/wallpaper_projetos_edit.jpg');
+    background-position: center;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
-#text-desenvolvimento{
-    color: white;
+    background-size: 1349px, 920px;
+
+
+
+
     margin: auto;
-    font-size: 22px;
+    background-color: rgba(255, 99, 71, 0);
+    /*
+    width: 1349px;
+    */
+    width: 100%;
+    height: 920px;
 }
