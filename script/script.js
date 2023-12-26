@@ -2,14 +2,14 @@
 // funções informações
     // função formação
     function entrarMouseBotaoAbaFormacao(){
-        formacao.style.color = '#02735E'
+        formacao.style.color = '#025959'
     }
     function sairMouseBotaoAbaFormacao(){
         formacao.style.color = 'white'
     }
     // função contact
     function entrarMouseBotaoAbaContact(){
-        contact.style.color = '#02735E'
+        contact.style.color = '#025959'
     }
     function sairMouseBotaoAbaContact(){
         contact.style.color = 'white'
@@ -54,22 +54,6 @@
     }
     function clicarMouseBotaoSobreMim(){
         sobre_mim.style.backgroundImage = 'linear-gradient(to left, #011546, #012E50, #025969)'
-        /*
-        let aba_sobre_mim = document.createElement('div')
-        aba_sobre_mim.setAttribute('id', 'aba-sobre-mim')
-        aba_sobre_mim.style.width = '100%'
-        aba_sobre_mim.style.height = '270px'
-        aba_sobre_mim.style.backgroundImage = 'linear-gradient(to left, #111111, #080808, #000000)'
-        menu_principal.insertBefore(aba_sobre_mim, aba_redes_sociais.nextSibling)
-
-        let aba_wallpaper_parte_de_baixo = document.createElement('div')
-        aba_wallpaper_parte_de_baixo.setAttribute('id', 'aba-wallpaper-parte-de-baixo')
-        aba_wallpaper_parte_de_baixo.style.width = '100%'
-        aba_wallpaper_parte_de_baixo.style.height = '267px'
-        aba_wallpaper_parte_de_baixo.style.backgroundColor = 'yellow'
-        menu_principal.insertBefore(aba_wallpaper_parte_de_baixo, aba_sobre_mim.nextSibling)
-        */
-
     }
     // currículo
     function entrarMouseBotaoCurriculo(){
@@ -205,15 +189,14 @@ let cabecalho_e_menu = document.getElementById('cabecalho-e-menu')
 
 // variável do menu principal
 const menu_principal = document.querySelector('.menu')
+    let inicio_da_pag = document.getElementById('inicio-da-pagina')
     // sobre mim
     let sobre_mim = document.getElementById('botao-sobre-mim')
+    let texto_sobre_mim = document.getElementById('sobre-mim')
     let botao_curriculo = document.getElementById('botao-curriculo')
     //foto de perfil
     let foto_perfil =  document.getElementById('foto-perfil')
     let gradient = document.getElementById('gradient')
-    // separador menu e conhecimentos
-    let separador_menu_e_conhecimentos = document.getElementById('separador-menu-conhec')
-    let aba_redes_sociais =  document.getElementById('redes-sociais')
 
 // ----- EVENTOS -----
 // eventos do botão da aba lateral
