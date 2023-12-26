@@ -139,7 +139,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../img/wallpaper_menu_12.jpg');
+    background-image: url('../img/wallpaper_menu_123.jpg');
     background-position: center;
     background-position-y: -70px;
     background-repeat: no-repeat;
@@ -697,18 +697,50 @@ body{
 #projetos{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     margin: auto;
     width: 1200px;
     height: 575px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 255, 0);
     border-radius: 15px;
 }
 
 .item-projeto{
-    width: 325px;
-    height: 225px;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.26);
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.foto-projeto{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 7px;
+
+    background-image: url('../img/IMG_7604.jpg');
+    background-position: top;
+    background-size: cover;
+    
+}
+
+.nome-do-projeto{
+    margin: 0px;
+    color: white;
+    font-family: 'my font';
+}
+
+.descricao-do-projeto{
+    margin: 0px;
+    text-align: left;
+    margin-left: 7px;
+    color: white;
+    font-family: 'my font';
 }
