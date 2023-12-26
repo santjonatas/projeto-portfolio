@@ -393,6 +393,7 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px;
+    font-weight: bold;
 }
 
 #titulo-mim{
@@ -404,6 +405,7 @@ body{
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 #mais-sobre-mim{
@@ -435,6 +437,7 @@ body{
     font-family: 'my font';
     background-color: rgba(255, 0, 0, 0);
     text-align: left;
+    font-weight: normal;
 }
 
 #foto-sobre-mim{
@@ -514,6 +517,7 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px;
+    font-weight: bold;
 }
 
 #titulo-skills{
@@ -521,12 +525,11 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px; 
-
-
     background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 .soft-e-hard{
@@ -546,6 +549,7 @@ body{
     font-family: 'my font';
     font-size: 25px;
     margin: 0px;
+    font-weight: normal;
 }
 
 #titulo-soft{
@@ -553,6 +557,7 @@ body{
     font-family: 'my font';
     font-size: 25px;
     margin: 0px;
+    font-weight: normal;
 }
 
 .border-aba-skills{
@@ -629,6 +634,7 @@ body{
     color: white;
     font-family: 'my font';
     font-size: 23px;
+    font-weight: normal;
 }
 
 .nome-habilidade{
@@ -636,6 +642,7 @@ body{
     color: white;
     font-family: 'my font';
     font-size: 23px;
+    font-weight: normal;
 }
 
 #aba-projetos{
@@ -655,4 +662,53 @@ body{
     */
     width: 100%;
     height: 700px;
+    gap: 0px;
+}
+
+#titulos-projetos{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#titulo-meus{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#titulo-p-projetos{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px; 
+    background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+#projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+    width: 1200px;
+    height: 575px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.item-projeto{
+    width: 325px;
+    height: 225px;
+    background-color: red;
 }
