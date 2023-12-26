@@ -1,11 +1,28 @@
 /*
 palheta de cores
-#011526
-#012E40
-#025959
-#02735E
-#038C65
+    #0E3037,
+    #0D1A37,
+    #0D0D37,
+    #1B0D37,
+    #190B1A
+
+
+
+    #1C6572,
+    #22448E,
+    #22228E,
+    #46228E,
+    #6B3172
+
+
+
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
 */
+
 
 @font-face{
     font-family: 'my font';
@@ -27,7 +44,7 @@ body{
     justify-content: center;
     align-content: center;
     margin: 0px;
-    background-color: rgb(10, 10, 10);
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
 }
 
 #aba-lateral{
@@ -47,19 +64,18 @@ body{
 
 #cabecalho{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 50%;
+    gap: 75%;
     width: 100%;
     height: 61px;
     position: fixed;
     color: white;
     font-size: 17px;
     font-family: 'my font';
-    box-shadow: 0px 0px 5px #011526;
-    /*
-    background-color: #01101d;
-    */
+    box-shadow: 0px 0px 5px #1B0D37;
+
+
     background-color: #000305;
 }
 
@@ -123,38 +139,35 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    
-
-    /*
-    background-image: url('../img/wallpaper_menu1.jpg');
-    
-    background-position: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    */    
 }
 
 #inicio-da-pagina{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../img/wallpaper_menu_7.jpg');
+    
+
+
+    background-image: url('../img/wallpaper_inicio_da_pag.jpg');
+
+    
+    
     background-position: center;
     background-position-y: -70px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 1349px, 620px;
     
 
-    background-size: 1349px, 620px;
 
 
 
+
+    /*
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
+    */
     margin: auto;
     background-color: rgba(255, 99, 71, 0);
-    /*
-    width: 1349px;
-    */
     width: 100%;
     height: 620px;
 }
@@ -174,12 +187,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 365px;
-    height: 365px;
-    background-image: linear-gradient(to left, #011526, rgb(39, 187, 105), #012E40, #025959, #24917d, #038C65);
+    width: 360px;
+    height: 360px;
+    background-image: linear-gradient(to right, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
+    box-shadow: 0px 0px 17px #1C6572;
     border-radius: 50%;
     margin: 10px;
-    box-shadow: 0px 0px 27px #24917d;
 } 
 
 #img-meio-gradient{
@@ -187,7 +206,7 @@ body{
     justify-content: center;
     align-items: center;
     background-position: center;
-    background-image: url('../img/wallpaper_gradient1.jpg');
+    background-image: url('../img/wallpaper_inicio_da_pag_foto.jpg');
     background-size: contain;
     background-position: center;
     width: 345px;
@@ -226,8 +245,6 @@ body{
     background-color: rgba(255, 0, 0, 0);
     margin: auto;
     margin-top: 0px;
-
-    
 }
 
 #ola-mundo{
@@ -252,13 +269,18 @@ body{
 }
 
 #front-end{
-    background-image: linear-gradient(to left, #025959, #24917d, #038C65, rgb(39, 187, 105));
+    background-image: linear-gradient(to left, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
     font-weight: bold;
     font-size: 50px;
-    font-style: italic;
 }
 
 #aba-botao-sobre-mim{
@@ -279,12 +301,12 @@ body{
     font-size: 22px;
     border-radius: 7px;
     background-color: rgba(151, 6, 6, 0);
-    color: #00aa8b;
     font-family: 'my font';
     width: 120px;
     height: 45px;
-    border: solid 2px #00aa8b;
-    box-shadow: 0px 0px 7px #24917d;
+    color: #376EE6;
+    border: solid 3px #376EE6;
+    box-shadow: 0px 0px 5px #1C6572;
 }
 
 #botao-sobre-mim{
@@ -294,12 +316,16 @@ body{
     font-size: 22px;
     border-radius: 7px;
     border: 0px;
-    background-image: linear-gradient(to left, #011526, #012E40, #025959);
+    background-image: linear-gradient(to right, 
+    #22448E,
+    #22228E,
+    #46228E
+    );
+    box-shadow: 0px 0px 5px #1C6572;
     color: rgb(255, 255, 255);
     font-family: 'my font';
     width: 120px;
     height: 45px;
-    box-shadow: 0px 0px 7px #24917d;
 }
 
 .descricao{
@@ -338,9 +364,15 @@ body{
     justify-content: center;
     align-items: top;
     gap: 50px;
-    background-color: rgba(255, 0, 0, 0);
+    
     width: 100%;
     height: 140px;
+
+
+
+    /*
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
+    */
 }
 
 .links-redes-sociais{
@@ -365,7 +397,14 @@ body{
     flex-direction: column;
     margin: auto;
     width: 100%;
+    /*
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
+    */
     background-image: linear-gradient(to left, #070707, #080808, #090909);
+
+
+
+
     height: 550px;
 }
 
@@ -373,12 +412,25 @@ body{
     width: 5px;
     height: 400px;
     border-radius: 10px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    /*
     background-image: linear-gradient(to bottom, #025959, #24917d, #038C65, rgb(39, 187, 105));
+    
     box-shadow: 0px 0px 7px #24917d;
+    */
+
+    background-image: linear-gradient(to top, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
+
+    box-shadow: 0px 0px 3px #7037E6;
+
 }
 
 #titulo-sobre-mim{
@@ -401,7 +453,15 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px; 
+    /*
     background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
+    */
+    background-image: linear-gradient(to left, 
+    #376EE6,
+    #3637E5,
+    #7037E6
+    );
+
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
@@ -412,9 +472,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*
-    gap: 150px;
-    */
     gap: 25px;
     width: 1300px;
     height: 425px;
@@ -438,6 +495,7 @@ body{
     background-color: rgba(255, 0, 0, 0);
     text-align: left;
     font-weight: normal;
+    font-size: 16px;
 }
 
 #foto-sobre-mim{
@@ -446,11 +504,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /*
     background-image: linear-gradient(to left, #025959, #24917d, #038C65, rgb(39, 187, 105));
-    border-radius: 50%;
-    box-shadow: 0px 0px 7px #24917d;
-    margin-top: 70px;
+    */
 
+
+    background-image: linear-gradient(to right top, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
+
+
+    box-shadow: 0px 0px 7px #7037E6;
+
+
+
+    border-radius: 50%;
+    /*
+    box-shadow: 0px 0px 7px #24917d;
+    */
+    margin-top: 70px;
     margin-left: 175px;
 }
 
@@ -461,10 +537,7 @@ body{
     align-items: center;
     width: 310px;
     height: 310px;
-    /*
-    background-color: rgb(255, 0, 0);
-    */
-    background-color: #080808;
+    background-color: #131313;
     border-radius: 50%;
 }
 
@@ -478,7 +551,6 @@ body{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-
 }
 
 #aba-mais-inf{
@@ -488,9 +560,6 @@ body{
     flex-direction: column;
     margin: auto;
     width: 100%;
-    /*
-    background-image: linear-gradient(to left, #011526, #012E40, #025959, #02735E, #038C65);
-    */
     background-image: linear-gradient(to left, #070707, #080808, #090909);
     height: 550px;
 }
@@ -525,7 +594,11 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px; 
-    background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
+    background-image: linear-gradient(to left, 
+    #376EE6,
+    #3637E5,
+    #7037E6
+    );
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
@@ -564,12 +637,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 475px;
-    height: 330px;
-    background-image: linear-gradient(to left, #025959, #24917d, #038C65, rgb(39, 187, 105));
+    width: 472px;
+    height: 327px;
+    background-image: linear-gradient(to right top, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
     border-radius: 5px;
-
-    box-shadow: 0px 0px 7px #24917d;
+    box-shadow: 0px 0px 5px #7037E6;
 }
 
 #hard-skills{
@@ -579,10 +657,7 @@ body{
     justify-content: center;
     width: 465px;
     height: 320px;
-    /*
-    background-color: rgb(255, 0, 0);
-    */
-    background-color: #080808;
+    background-color: #131313;
     border-radius: 5px;
 }
 
@@ -593,10 +668,7 @@ body{
     justify-content: center;
     width: 465px;
     height: 320px;
-    /*
-    background-color: rgb(255, 0, 0);
-    */
-    background-color: #080808;
+    background-color: #131313;
     border-radius: 5px;
 }
 
@@ -607,9 +679,8 @@ body{
     gap: 10px;
     width: 440px;
     height: 50px;
-    background-color: #012E40; 
+    background-color: rgba(255, 255, 255, 0.11);
     border-radius: 7px;
-    background-image: linear-gradient(to left, #01425c, #012E40, #011526 );
 }
 
 .item-soft{
@@ -619,9 +690,8 @@ body{
     gap: 10px;
     width: 440px;
     height: 50px;
-    background-color: #012E40; 
+    background-color: rgba(255, 255, 255, 0.11); 
     border-radius: 7px;
-    background-image: linear-gradient(to left, #01425c, #012E40, #011526 );
 }
 
 .tec{
@@ -649,16 +719,16 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../img/wallpaper_projetos_testando.jpg');
-    background-position: center;
     
+    background-image: url('../img/wallpaper_projetos.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 1349px, 920px;
+    
     margin: auto;
-    background-color: rgba(255, 99, 71, 0);
     /*
-    width: 1349px;
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
     */
     width: 100%;
     height: 825px;
@@ -687,7 +757,11 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px; 
-    background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
+    background-image: linear-gradient(to left, 
+    #376EE6,
+    #3637E5,
+    #7037E6
+    );
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
@@ -701,7 +775,7 @@ body{
     flex-wrap: wrap;
     gap: 30px;
     margin: auto;
-    width: 1200px;
+    width: 1250px;
     height: 650px;
     background-color: rgba(255, 0, 255, 0);
     border-radius: 15px;
@@ -712,11 +786,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 350px;
-    height: 370px;
-    background-color: rgba(255, 255, 255, 0.26);
+    width: 370px;
+    height: 390px;
+    background-color: rgba(255, 255, 255, 0.11);
     gap: 10px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px #7037E6;
 }
 
 .foto-projeto{
@@ -724,11 +799,9 @@ body{
     height: 200px;
     background-color: blue;
     border-radius: 7px;
-
-    background-image: url('../img/IMG_7604.jpg');
+    background-image: url('../img/wallpaper_projeto_exemplo.jpg');
     background-position: top;
     background-size: cover;
-    
 }
 
 .nome-do-projeto{
