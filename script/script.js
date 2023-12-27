@@ -65,7 +65,7 @@
     }
     // foto de perfil
     function entrarMouseBotaoPerfil(){
-        gradient.style.boxShadow = '0px 0px 27px #3637E5' 
+        gradient.style.boxShadow = '0px 0px 25px #3637E5' 
     }
     function sairMouseBotaoPerfil(){
         gradient.style.boxShadow = '0px 0px 17px #1C6572'
@@ -91,49 +91,29 @@ function clicarMouseBotaoAbaLateral(){
 
     corpo.insertBefore(aba_lateral, cabecalho_e_menu)
     aba_lateral.style.width = '300px'
-    aba_lateral.style.height = '925px'
-    aba_lateral.style.overflowY = 'scroll'
+    aba_lateral.style.height = '100%'
+    aba_lateral.style.marginLeft = '-1049px'
+    aba_lateral.style.zIndex = '1'
+    aba_lateral.style.position = 'fixed'
+    
+    aba_do_botao_da_aba_lateral.removeChild(botao_da_aba_lateral)
 
-    botao_e_portfolio.removeChild(aba_do_botao_da_aba_lateral)
+    let cabecalho_da_aba_lateral = document.createElement('div')
+    cabecalho_da_aba_lateral.setAttribute('id', 'cabecalho-da-aba-lateral')
+    aba_lateral.appendChild(cabecalho_da_aba_lateral)
 
-    cabecalho.style.justifyContent = 'start'
-    cabecalho.style.gap = '45%'
-    botao_e_portfolio.style.marginLeft = '70px'
+    cabecalho_da_aba_lateral.style.width = '300px'
+    cabecalho_da_aba_lateral.style.height = '61px'
+    cabecalho_da_aba_lateral.style.backgroundColor = 'red'
 
-    let header_aba_lateral = document.createElement('div')
-    header_aba_lateral.setAttribute('id', 'header-aba-lateral')
-    header_aba_lateral.style.width = '100%'
-    header_aba_lateral.style.height = '61px'
-    aba_lateral.appendChild(header_aba_lateral)
-    header_aba_lateral.style.backgroundColor = '#011526'
+    
+
+
+
+
+    
+
     /*
-    header_aba_lateral.style.position = 'fixed'
-    */
-    header_aba_lateral.style.display = 'flex'
-    header_aba_lateral.style.alignItems = 'center'
-
-    // variáveis do botão fechar a aba lateral
-    let botao_fechar_aba_lateral = document.createElement('img')
-    botao_fechar_aba_lateral.setAttribute('src', './img/menu-icone.png')
-    botao_fechar_aba_lateral.style.width = '25px'
-    botao_fechar_aba_lateral.style.height = '25px'
-
-    let aba_botao_fechar_aba_lateral = document.createElement('div')
-    aba_botao_fechar_aba_lateral.setAttribute('id', 'aba-botao-fechar-aba-lateral')
-    aba_botao_fechar_aba_lateral.style.width = '30px'
-    aba_botao_fechar_aba_lateral.style.height = '30px'
-    aba_botao_fechar_aba_lateral.style.backgroundColor = 'gray'
-    aba_botao_fechar_aba_lateral.style.display = 'flex'
-    aba_botao_fechar_aba_lateral.style.justifyContent = 'center'
-    aba_botao_fechar_aba_lateral.style.alignItems = 'center'
-    aba_botao_fechar_aba_lateral.style.borderRadius = '4px'
-    aba_botao_fechar_aba_lateral.style.backgroundColor = '#025959'
-    aba_botao_fechar_aba_lateral.style.marginLeft = '45px'
-    header_aba_lateral.appendChild(aba_botao_fechar_aba_lateral)
-    aba_botao_fechar_aba_lateral.appendChild(botao_fechar_aba_lateral)
-
-    let portfolio = document.getElementById('portfolio')
-
     function entrarMouseBotaoAbaLateralDeFechar(){
         aba_botao_fechar_aba_lateral.style.backgroundColor = '#012E40'
         aba_botao_fechar_aba_lateral.style.boxShadow = '0px 0px 10px #24917d'
@@ -157,6 +137,7 @@ function clicarMouseBotaoAbaLateral(){
     botao_fechar_aba_lateral.addEventListener('mouseenter', entrarMouseBotaoAbaLateralDeFechar)
     botao_fechar_aba_lateral.addEventListener('mouseout', sairMouseBotaoAbaLateralDeFechar)
     botao_fechar_aba_lateral.addEventListener('click', clicarMouseBotaoAbaLateralParaFechar)
+    */
 }
 
 

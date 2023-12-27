@@ -74,8 +74,6 @@ body{
     font-size: 17px;
     font-family: 'my font';
     box-shadow: 0px 0px 5px #1B0D37;
-
-
     background-color: #000305;
 }
 
@@ -145,27 +143,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
-
     background-image: url('../img/wallpaper_inicio_da_pag.jpg');
-
-    
-    
     background-position: center;
     background-position-y: -70px;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 1349px, 620px;
-    
-
-
-
-
-
-    /*
-    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
-    */
     margin: auto;
     background-color: rgba(255, 99, 71, 0);
     width: 100%;
@@ -187,8 +170,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 360px;
-    height: 360px;
+    width: 357px;
+    height: 357px;
     background-image: linear-gradient(to right, 
     #3ACBE5,
     #376EE6,
@@ -300,13 +283,13 @@ body{
     align-items: center;
     font-size: 22px;
     border-radius: 7px;
-    background-color: rgba(151, 6, 6, 0);
     font-family: 'my font';
     width: 120px;
     height: 45px;
     color: #376EE6;
     border: solid 3px #376EE6;
     box-shadow: 0px 0px 5px #1C6572;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #botao-sobre-mim{
@@ -364,15 +347,8 @@ body{
     justify-content: center;
     align-items: top;
     gap: 50px;
-    
     width: 100%;
     height: 140px;
-
-
-
-    /*
-    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
-    */
 }
 
 .links-redes-sociais{
@@ -397,14 +373,6 @@ body{
     flex-direction: column;
     margin: auto;
     width: 100%;
-    /*
-    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
-    */
-    background-image: linear-gradient(to left, #070707, #080808, #090909);
-
-
-
-
     height: 550px;
 }
 
@@ -415,12 +383,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*
-    background-image: linear-gradient(to bottom, #025959, #24917d, #038C65, rgb(39, 187, 105));
-    
-    box-shadow: 0px 0px 7px #24917d;
-    */
-
     background-image: linear-gradient(to top, 
     #3ACBE5,
     #376EE6,
@@ -428,9 +390,7 @@ body{
     #7037E6,
     #863D8E
     );
-
     box-shadow: 0px 0px 3px #7037E6;
-
 }
 
 #titulo-sobre-mim{
@@ -453,15 +413,11 @@ body{
     font-family: 'my font';
     font-size: 30px;
     margin-top: 0px; 
-    /*
-    background-image: linear-gradient(to left, #24917d, #038C65, rgb(39, 187, 105));
-    */
     background-image: linear-gradient(to left, 
     #376EE6,
     #3637E5,
     #7037E6
     );
-
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;
@@ -504,11 +460,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*
-    background-image: linear-gradient(to left, #025959, #24917d, #038C65, rgb(39, 187, 105));
-    */
-
-
     background-image: linear-gradient(to right top, 
     #3ACBE5,
     #376EE6,
@@ -516,16 +467,8 @@ body{
     #7037E6,
     #863D8E
     );
-
-
     box-shadow: 0px 0px 7px #7037E6;
-
-
-
     border-radius: 50%;
-    /*
-    box-shadow: 0px 0px 7px #24917d;
-    */
     margin-top: 70px;
     margin-left: 175px;
 }
@@ -560,7 +503,6 @@ body{
     flex-direction: column;
     margin: auto;
     width: 100%;
-    background-image: linear-gradient(to left, #070707, #080808, #090909);
     height: 550px;
 }
 
@@ -613,7 +555,6 @@ body{
     background-color: rgba(255, 255, 0, 0);
     width: 520px;
     height: 400px;
-
     gap: 10px;
 }
 
@@ -637,8 +578,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 472px;
-    height: 327px;
+    width: 462px;
+    height: 317px;
     background-image: linear-gradient(to right top, 
     #3ACBE5,
     #376EE6,
@@ -655,8 +596,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 465px;
-    height: 320px;
+    width: 455px;
+    height: 310px;
     background-color: #131313;
     border-radius: 5px;
 }
@@ -666,8 +607,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 465px;
-    height: 320px;
+    width: 455px;
+    height: 310px;
     background-color: #131313;
     border-radius: 5px;
 }
@@ -677,8 +618,8 @@ body{
     align-items: center;
     margin: auto;
     gap: 10px;
-    width: 440px;
-    height: 50px;
+    width: 400px;
+    height: 45px;
     background-color: rgba(255, 255, 255, 0.11);
     border-radius: 7px;
 }
@@ -688,8 +629,8 @@ body{
     align-items: center;
     margin: auto;
     gap: 10px;
-    width: 440px;
-    height: 50px;
+    width: 400px;
+    height: 45px;
     background-color: rgba(255, 255, 255, 0.11); 
     border-radius: 7px;
 }
@@ -703,7 +644,7 @@ body{
 .nome-tec{
     color: white;
     font-family: 'my font';
-    font-size: 23px;
+    font-size: 21px;
     font-weight: normal;
 }
 
@@ -711,7 +652,7 @@ body{
     margin-left: 5px;
     color: white;
     font-family: 'my font';
-    font-size: 23px;
+    font-size: 21px;
     font-weight: normal;
 }
 
@@ -719,19 +660,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    background-image: url('../img/wallpaper_projetos.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 1349px, 920px;
-    
     margin: auto;
-    /*
-    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
-    */
+    background-image: linear-gradient(to left, #070707, #080808, #090909);
     width: 100%;
-    height: 825px;
+    height: 575px;
     gap: 0px;
 }
 
@@ -779,6 +711,7 @@ body{
     height: 650px;
     background-color: rgba(255, 0, 255, 0);
     border-radius: 15px;
+    margin-top: 25px;
 }
 
 .item-projeto{
@@ -786,17 +719,17 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 370px;
-    height: 390px;
+    width: 300px;
+    height: 380px;
     background-color: rgba(255, 255, 255, 0.11);
     gap: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #7037E6;
+    box-shadow: 0px 0px 5px #3637E5;
 }
 
 .foto-projeto{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
     background-color: blue;
     border-radius: 7px;
     background-image: url('../img/wallpaper_projeto_exemplo.jpg');
@@ -808,6 +741,8 @@ body{
     margin: 0px;
     color: white;
     font-family: 'my font';
+    font-weight: normal;
+    font-size: 21px;
 }
 
 .descricao-do-projeto{
