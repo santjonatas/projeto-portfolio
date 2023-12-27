@@ -374,6 +374,7 @@ body{
     margin: auto;
     width: 100%;
     height: 550px;
+    background-image: linear-gradient(to left, #070707, #080808, #090909);
 }
 
 #linha-vertical-texto{
