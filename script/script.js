@@ -10,6 +10,13 @@
     function sairMouseBotaoAbaFormacao(){
         formacao.style.color = 'white'
     }
+    function clicarMouseBotaoAbaFormacao(){
+        formacao.style.backgroundImage = 'linear-gradient(to left, #22228E, #46228E)'
+        margin_header_form.scrollIntoView({ behavior: "smooth"})
+    }
+    function desclicarMouseBotaoAbaFormacao(){
+        formacao.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
+    }
     // função contact
     function entrarMouseBotaoAbaContact(){
         contact.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
@@ -19,6 +26,13 @@
     }
     function sairMouseBotaoAbaContact(){
         contact.style.color = 'white'
+    }
+    function clicarMouseBotaoAbaContato(){
+        contact.style.backgroundImage = 'linear-gradient(to left, #22228E, #46228E)'
+        aba_contact.scrollIntoView({ behavior: "smooth"})
+    }
+    function desclicarMouseBotaoAbaContato(){
+        contact.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
     }
     // função tema escuro
     function entrarMouseBotaoLua(){
@@ -69,7 +83,7 @@
     }
     function clicarMouseBotaoSobreMim(){
         sobre_mim.style.backgroundImage = 'linear-gradient(to right, #0D1A37, #0D0D37, #1B0D37)'
-        aba_sobre_mim.scrollIntoView({ behavior: "smooth"})
+        margin_header_sobre_mim.scrollIntoView({ behavior: "smooth"})
     }
     function desclicarMouseBotaoSobreMim(){
         sobre_mim.style.backgroundImage = 'linear-gradient(to right,  #376EE6, #3637E5, #7037E6)'
@@ -114,7 +128,9 @@ let cabecalho_e_menu = document.getElementById('cabecalho-e-menu')
     // variável div das navegações
     let informacoes = document.getElementById('informacoes')
     let formacao = document.getElementById('formacao')
+    let aba_formacao = document.getElementById('aba-formacao')
     let contact = document.getElementById('contact')
+    let aba_contact = document.getElementById('aba-contato')
     let github =  document.getElementById('github')
     let linkedin = document.getElementById('linkedin')
     let instagram = document.getElementById('instagram')
@@ -134,15 +150,23 @@ const menu_principal = document.querySelector('.menu')
     let foto_perfil =  document.getElementById('foto-perfil')
     let gradient = document.getElementById('gradient')
 
+    // margin header
+    let margin_header_sobre_mim = document.getElementById('margin-for-header_sobre_mim')
+    let margin_header_form = document.getElementById('margin-for-header_form')
+
 // ----- EVENTOS -----
 
 // eventos dos botões de navegação do header 'informações'
     // formação
     formacao.addEventListener('mouseenter', entrarMouseBotaoAbaFormacao)
     formacao.addEventListener('mouseout', sairMouseBotaoAbaFormacao)
+    formacao.addEventListener('mousedown', clicarMouseBotaoAbaFormacao)
+    formacao.addEventListener('mouseup', desclicarMouseBotaoAbaFormacao)
     // contact
     contact.addEventListener('mouseenter', entrarMouseBotaoAbaContact)
     contact.addEventListener('mouseout', sairMouseBotaoAbaContact)
+    contact.addEventListener('mousedown', clicarMouseBotaoAbaContato)
+    contact.addEventListener('mouseup', desclicarMouseBotaoAbaContato)
     // github
     github.addEventListener('mouseenter', entrarMouseBotaoAbaGithub)
     github.addEventListener('mouseout', sairMouseBotaoAbaGithub)
