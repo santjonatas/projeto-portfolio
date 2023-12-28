@@ -777,3 +777,212 @@ body{
     color: white;
     font-family: 'my font';
 }
+
+#aba-formacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 450px;
+    gap: 0px;
+}
+
+#titulo-formacao{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#titulo-minha{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#titulo-cursando-formacao{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px; 
+    background-image: linear-gradient(to left, 
+    #376EE6,
+    #3637E5,
+    #7037E6
+    );
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+#gradient-meu-curso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 462px;
+    height: 277px;
+    background-image: linear-gradient(to right top, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #7037E6;
+}
+
+#meu-curso{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 455px;
+    height: 270px;
+    background-color: #131313;
+    border-radius: 5px;
+}
+
+#descricao-curso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 0px;
+    width: 440px;
+    height: 255px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 7px;
+}
+
+#curso-ads{
+    margin: auto;
+    color: white;
+    font-family: 'my font';
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+#facul{
+    margin: auto;
+    color: white;
+    font-family: 'my font';
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+#inf-curso{
+    margin: auto;
+    font-family: 'my font';
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font-size: 17px;
+    font-weight: normal;
+}
+
+#aba-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-image: linear-gradient(to left, #070707, #080808, #090909);
+    width: 100%;
+    height: 250px;
+    gap: 0px;
+}
+
+#titulo-contato{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#titulo-meus-ctt{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#titulo-ctts{
+    color: white;
+    font-family: 'my font';
+    font-size: 30px;
+    margin-top: 0px; 
+    background-image: linear-gradient(to left, 
+    #376EE6,
+    #3637E5,
+    #7037E6
+    );
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+#contem-ctts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(245, 222, 179, 0);
+    width: 700px;
+    height: 70px;
+    gap: 100px;
+}
+
+#whats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+#email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.icon-ctt{
+    width: 35px;
+    height: 35px;
+}
+
+.text-ctt{
+    color: white;
+    font-family: 'my font';
+}
+
+#linha-horizontal-text{
+    width: 400px;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: linear-gradient(to left, 
+    #3ACBE5,
+    #376EE6,
+    #3637E5,
+    #7037E6,
+    #863D8E
+    );
+    box-shadow: 0px 0px 3px #7037E6;
+}
