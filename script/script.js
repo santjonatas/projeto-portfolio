@@ -35,6 +35,8 @@
         contact.style.backgroundImage = 'linear-gradient(to left, #3637E5, #7037E6)'
     }
     // função tema escuro
+
+    /*
     function entrarMouseBotaoLua(){
         aba_tema.style.backgroundColor = '#333333'
     }
@@ -42,6 +44,41 @@
     function sairMouseBotaoLua(){
         aba_tema.style.backgroundColor = ''
     }
+    function mudarParaTemaClaro(){
+
+            function entrarMouseBotaoSol(){
+                aba_tema.style.backgroundColor = '#333333'
+            }
+            function sairMouseBotaoSol(){
+                aba_tema.style.backgroundColor = ''
+            }
+            function mudarParaTemaEscuro(){
+                temaAtual = false
+
+                console.log(temaAtual)
+            }
+    
+            aba_tema.removeChild(botao_lua)
+            let botao_sol = document.createElement('img')
+            botao_sol.setAttribute('src', './img/icons8-sol-50(1).png')
+            botao_sol.style.width = '30px'
+            botao_sol.style.height = '30px'
+            aba_tema.appendChild(botao_sol)
+    
+            cabecalho.style.backgroundColor = 'azure'
+            
+            botao_sol.addEventListener('mouseenter', entrarMouseBotaoSol)
+            botao_sol.addEventListener('mouseout', sairMouseBotaoSol)
+            botao_sol.addEventListener('click', mudarParaTemaEscuro)
+
+            console.log(temaAtual)
+
+            cabecalho.style.backgroundColor = 'black'
+
+
+        
+    }
+    */
 
     // função github
     function entrarMouseBotaoAbaGithub(){
@@ -115,6 +152,9 @@
         gradient.style.boxShadow = '0px 0px 17px #1C6572'
     }
 
+// função botão scroll top
+
+
 // ----- VARIÁVEIS -----
 // body
 let corpo = document.getElementById('corpo')
@@ -179,8 +219,11 @@ const menu_principal = document.querySelector('.menu')
 
 // eventos tema
     // tema escuro
+    /*
     botao_lua.addEventListener('mouseenter', entrarMouseBotaoLua)
     botao_lua.addEventListener('mouseout', sairMouseBotaoLua)
+    botao_lua.addEventListener('click', mudarParaTemaClaro)
+    */
 
 // eventos menu principal
     // sobre mim
