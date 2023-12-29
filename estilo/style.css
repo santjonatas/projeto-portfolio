@@ -867,6 +867,10 @@ body{
 #img-projeto-calculadora{
     background-image: url('../img/calculadora_projeto.png');
 }
+#img-projeto-museu{
+    background-image: url('../img/icons8-universidade-96.png');
+    background-size: contain;
+}
 
 
 #aba-formacao{
