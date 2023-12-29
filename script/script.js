@@ -152,7 +152,17 @@
         gradient.style.boxShadow = '0px 0px 17px #1C6572'
     }
 
-// função botão scroll top
+// função dos itens-projetos
+function entrarMouseItemProjeto(){
+    this.style.backgroundColor = 'rgba(255, 255, 255, 0.219)'
+    this.style.boxShadow = '0px 0px 15px #3637E5'
+}
+
+function sairMouseItemProjeto(){
+    this.style.backgroundColor = 'rgba(255, 255, 255, 0.11)'
+    this.style.boxShadow = ''
+}
+
 
 
 // ----- VARIÁVEIS -----
@@ -193,6 +203,10 @@ const menu_principal = document.querySelector('.menu')
     // margin header
     let margin_header_sobre_mim = document.getElementById('margin-for-header_sobre_mim')
     let margin_header_form = document.getElementById('margin-for-header_form')
+
+// variaveis do projeto
+let item_projeto = document.querySelectorAll('.item-projeto')
+let p1 = document.getElementById('pjt1')
 
 // ----- EVENTOS -----
 
@@ -239,3 +253,10 @@ const menu_principal = document.querySelector('.menu')
     // foto de perfil
     foto_perfil.addEventListener('mouseenter', entrarMouseBotaoPerfil)
     foto_perfil.addEventListener('mouseout', sairMouseBotaoPerfil) 
+    // itens-projetos
+   Array.from(item_projeto).forEach(function(evt){
+    evt.addEventListener('mouseover', entrarMouseItemProjeto)
+   })
+   Array.from(item_projeto).forEach(function(evt){
+    evt.addEventListener('mouseout', sairMouseItemProjeto)
+   })
