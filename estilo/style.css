@@ -163,7 +163,7 @@ body{
 .perfil{
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(73, 38, 73, 0);
     gap: 90px;
 }
 
@@ -220,7 +220,7 @@ body{
     justify-content: center;
     font-family: 'my font';
     font-size: 50px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(111, 167, 21, 0);
 }
 
 #aba-ola-mundo{
@@ -735,7 +735,7 @@ body{
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
     margin: auto;
     width: 1250px;
     height: 650px;
@@ -749,6 +749,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
     width: 350px;
     height: 450px;
     background-color: rgba(255, 255, 255, 0.11);
@@ -1102,4 +1103,528 @@ body{
 #margin-for-header_sobre_mim{
     width: 100%;
     height: 60px;
+}
+
+
+
+@media(max-width: 1250px){
+    #aba-texto-sobre-mim{
+        width: 600px;
+    }
+    #projetos{
+        width: 1150px;
+    }
+    .item-projeto{
+        width: 350px;
+    }
+    #foto-sobre-mim{
+        margin-left: 100px;
+    }
+}
+
+@media(max-width: 1170px){
+    #ola-mundo{
+        margin-right: 23%;
+    }
+    #aba-texto-sobre-mim{
+        width: 500px;
+    }
+    #aba-projetos{
+        height: 650px;
+    }
+    #projetos{
+        width: 1050px;
+    }
+    .item-projeto{
+        width: 300px;
+        height: 500px;
+    }
+}
+
+@media(max-width: 1125px){
+    .perfil{
+        gap: 20px;
+    }
+}
+
+@media(max-width: 1085px){
+    #ola-mundo{
+        margin-right: 25%;
+    }
+    #foto-sobre-mim{
+        margin-left: 100px;
+    }
+    #skills{
+        gap: 5px;
+    }
+    #projetos{
+        width: 990px;
+    }
+}
+
+@media(max-width: 1045px){
+    #ola-mundo{
+        background-color: blue;
+        font-size: 13px;
+        margin-right: 32%;
+    }
+    #foto-perfil{
+        width: 300px;
+        height: 300px;
+    }
+    #img-meio-gradient{
+        width: 325px;
+        height: 325px;
+    }
+    #gradient{
+        width: 337px;
+        height: 337px;
+    }
+    .inf-perfil{
+        width: 570px;
+    }
+    #front-end{
+        font-size: 45px;
+    }
+    #sobre-mim{
+        width: 550px;
+    }
+}
+
+@media(max-width: 1025px){
+    #ola-mundo{
+        background-color: blue;
+        font-size: 13px;
+        margin-right: 32%;
+    }
+    #foto-perfil{
+        width: 270px;
+        height: 270px;
+    }
+    #img-meio-gradient{
+        width: 295px;
+        height: 295px;
+    }
+    #gradient{
+        width: 307px;
+        height: 307px;
+    }
+    .inf-perfil{
+        width: 570px;
+    }
+    #front-end{
+        font-size: 45px;
+    }
+    #sobre-mim{
+        width: 470px;
+    }
+    .border-aba-skills{
+        width: 377px;
+    }
+    .item-hard{
+        width: 350px;
+    }
+    .item-soft{
+        width: 350px;
+    }
+    #hard-skills{
+        width: 370px;
+    }
+    #soft-skills{
+        width: 370px;
+    }
+    #aba-projetos{
+        
+    }
+    #projetos{
+        width: 920px;
+    }
+    .item-projeto{
+        width: 290px;
+    }
+    #aba-texto-sobre-mim{
+        width: 450px;
+    }
+    #imagem-da-aba-sobre-mim{
+        width: 250px;
+        height: 250px;
+    }
+    #sobre-mim-image{
+        width: 260px;
+        height: 260px;
+    }
+    #foto-sobre-mim{
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media(max-width: 945px){
+    #ola-mundo{
+        background-color: blue;
+        font-size: 11px;
+        margin-right: 39%;
+    }
+    #foto-perfil{
+        width: 260px;
+        height: 260px;
+    }
+    #img-meio-gradient{
+        width: 285px;
+        height: 285px;
+    }
+    #gradient{
+        width: 297px;
+        height: 297px;
+    }
+    .perfil{
+        gap: 10px;
+    }
+    .inf-perfil{
+        width: 515px;
+    }
+    #front-end{
+        font-size: 37px;
+    }
+    #sobre-mim{
+        width: 430px;
+    }
+    #skills{
+        
+        width: 800px;
+    }
+    .border-aba-skills{
+        width: 377px;
+    }
+    .item-hard{
+        width: 350px;
+    }
+    .item-soft{
+        width: 350px;
+    }
+    #hard-skills{
+        width: 370px;
+    }
+    #soft-skills{
+        width: 370px;
+    }
+    #aba-projetos{
+        height: 1200px;
+    }
+    #projetos{
+        width: 800px;
+        height: 1060px;
+        flex-wrap: wrap;
+    }
+    .item-projeto{
+        width: 350px;
+    }
+    #aba-texto-sobre-mim{
+        width: 450px;
+    }
+    #imagem-da-aba-sobre-mim{
+        width: 250px;
+        height: 250px;
+    }
+    #sobre-mim-image{
+        width: 260px;
+        height: 260px;
+    }
+    #foto-sobre-mim{
+        width: 270px;
+        height: 270px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 860px){
+    #inicio-da-pagina{
+        height: 800px;
+        justify-content: center;
+    }
+    #informacoes{
+        margin-right: 0px;
+    }
+    #aba-ola-mundo{
+        height: 30px;
+        margin: 0px;
+    }
+    #ola-mundo{
+        font-size: 11px;
+        margin-right: 43%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .foto-de-perfil{
+        margin: 0px;
+    }
+    #foto-perfil{
+        
+        width: 270px;
+        height: 270px;
+    }
+    #img-meio-gradient{
+        width: 295px;
+        height: 295px;
+    }
+    #gradient{
+        margin: auto;
+        margin-top: 10px;
+        width: 307px;
+        height: 307px;
+    }
+    .perfil{
+        margin: auto;
+        width: 500px;
+        height: 650px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .inf-perfil{
+        justify-content: center;
+        margin: auto;
+        width: 500px;
+    }
+    #jonatas-santos{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 400px;
+    }
+    #front-end{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-size: 37px;
+        width: 500px;
+    }
+    .descricao-text{
+        margin: auto;
+        width: 400px;
+    }
+    #sobre-mim{
+        text-align: center;
+        margin: 0px;
+        margin-top: 10px;
+        width: 400px;
+    }
+    #skills{
+        gap: 0px;
+        width: 800px;
+    }
+    .border-aba-skills{
+        width: 377px;
+    }
+    .item-hard{
+        width: 350px;
+    }
+    .item-soft{
+        width: 350px;
+    }
+    #hard-skills{
+        width: 370px;
+    }
+    #soft-skills{
+        width: 370px;
+    }
+    #aba-projetos{
+        height: 1200px;
+    }
+    #projetos{
+        width: 800px;
+        height: 1060px;
+        flex-wrap: wrap;
+    }
+    .item-projeto{
+        width: 350px;
+    }
+    #aba-texto-sobre-mim{
+        width: 450px;
+    }
+    #imagem-da-aba-sobre-mim{
+        width: 230px;
+        height: 230px;
+    }
+    #sobre-mim-image{
+        width: 240px;
+        height: 240px;
+    }
+    #foto-sobre-mim{
+        width: 250px;
+        height: 250px;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width: 810px){
+    #inicio-da-pagina{
+        height: 800px;
+        justify-content: center;
+    }
+    #informacoes{
+        margin-right: 0px;
+    }
+    #aba-ola-mundo{
+        margin: auto;
+        justify-content: center;
+        height: 30px;
+        margin: 0px;
+        width: 550px;
+    }
+    #ola-mundo{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .foto-de-perfil{
+        margin: 0px;
+    }
+    #foto-perfil{
+        width: 200px;
+        height: 200px;
+    }
+    #img-meio-gradient{
+        width: 225px;
+        height: 225px;
+    }
+    #gradient{
+        margin: auto;
+        margin-top: 0px;
+        width: 237px;
+        height: 237px;
+    }
+    .perfil{
+        margin: auto;
+        width: 500px;
+        height: 525px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .inf-perfil{
+        justify-content: center;
+        margin: auto;
+        width: 500px;
+        height: 270px;
+    }
+    #jonatas-santos{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 400px;
+        font-size: 40px;
+    }
+    #front-end{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: auto;
+        font-size: 30px;
+        width: 500px;
+    }
+    .descricao-text{
+        margin: auto;
+        width: 400px;
+    }
+    #linha-vertical-texto{
+        width: 300px;
+        height: 5px;
+        background-image: linear-gradient(to right, 
+        #3ACBE5,
+        #376EE6,
+        #3637E5,
+        #7037E6,
+        #863D8E
+    );
+    }
+    #aba-sobre-mim{
+        height: 790px;
+    }
+    #mais-sobre-mim{
+        flex-direction: column;
+        height: 690px;
+        width: 470px;
+    }
+    #sobre-mim{
+        text-align: center;
+        margin: 0px;
+        margin-top: 5px;
+        width: 350px;
+    }
+    #aba-mais-inf{
+        height: 850px;
+    }
+    .texto-sobre-mim{
+        text-align: center;
+    }
+    #aba-texto-sobre-mim{
+    }
+    
+    #skills{
+        flex-direction: column;
+        gap: 0px;
+        width: 470px;
+        height: 780px;
+    }
+    .border-aba-skills{
+        width: 400px;
+    }
+    .item-hard{
+        width: 370px;
+    }
+    .item-soft{
+        width: 370px;
+    }
+    #hard-skills{
+        width: 393px;
+    }
+    #soft-skills{
+        width: 393px;
+    }
+    #aba-projetos{
+        height: 1700px;
+    }
+    #projetos{
+        justify-content: center;
+        width: 470px;
+        height: 1600px;
+        flex-wrap: wrap;
+    }
+    .item-projeto{
+        width: 400px;
+    }
+    #aba-texto-sobre-mim{
+        width: 450px;
+    }
+    #imagem-da-aba-sobre-mim{
+        width: 200px;
+        height: 200px;
+    }
+    #sobre-mim-image{
+        width: 210px;
+        height: 210px;
+    }
+    #foto-sobre-mim{
+        width: 220px;
+        height: 220px;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    #descricao-curso{
+        width: 350px;
+    }
+    #meu-curso{
+        width: 365px;
+    }
+    #gradient-meu-curso{
+        width: 372px;
+    }
+    #contem-ctts{
+        flex-direction: column;
+        gap: 5px;
+        width: 450px;
+        height: 100px;
+    }
 }
