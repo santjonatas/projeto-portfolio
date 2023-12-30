@@ -1456,7 +1456,7 @@ body{
     }
 }
 
-@media(max-width: 810px){
+@media(max-width: 830px){
     #inicio-da-pagina{
         height: 800px;
         justify-content: center;
