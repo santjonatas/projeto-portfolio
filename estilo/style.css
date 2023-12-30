@@ -1145,7 +1145,7 @@ body{
 
 
 
-/*
+
 @media(max-width: 1250px){
     #aba-texto-sobre-mim{
         width: 600px;
@@ -1675,7 +1675,7 @@ body{
 
 
 
-
+/*
 @media(max-width: 1024px){
     #cabecalho{
         background-color: blue;
@@ -1695,6 +1695,5 @@ body{
         background-color: green;
     }
 }
-
-
 */
+
