@@ -401,6 +401,7 @@ body{
 
 #aba-sobre-mim{
     margin: auto;
+    
 
 
     display: flex;
@@ -536,7 +537,9 @@ body{
 
 #aba-mais-inf{
     margin: auto;
-
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
+    background-position: center;
+    
 
 
     display: flex;
@@ -697,6 +700,12 @@ body{
     font-family: 'my font';
     font-size: 21px;
     font-weight: normal;
+}
+
+#margin-for-header_projetos{
+    margin: auto;
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
+    background-position: center;
 }
 
 #aba-projetos{
@@ -894,7 +903,8 @@ body{
 
 #aba-formacao{
     margin: auto;
-
+    background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
+    background-position: center;
 
 
     display: flex;
@@ -1486,7 +1496,7 @@ body{
 @media(max-width: 830px){
     #inicio-da-pagina{
         margin: auto;
-
+        width: 830px;
         height: 800px;
         justify-content: center;
     }
