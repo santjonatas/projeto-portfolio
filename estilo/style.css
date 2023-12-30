@@ -138,6 +138,9 @@ body{
 }
 
 .menu{
+    margin: auto;
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,6 +148,10 @@ body{
 }
 
 #inicio-da-pagina{
+    margin: auto;
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -393,6 +400,9 @@ body{
 }
 
 #aba-sobre-mim{
+    margin: auto;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -525,6 +535,10 @@ body{
 }
 
 #aba-mais-inf{
+    margin: auto;
+
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -686,6 +700,10 @@ body{
 }
 
 #aba-projetos{
+    margin: auto;
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -875,6 +893,10 @@ body{
 
 
 #aba-formacao{
+    margin: auto;
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -987,10 +1009,15 @@ body{
 }
 
 #aba-contato{
+    margin: auto;
+
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+    
     background-image: linear-gradient(to left, #070707, #080808, #090909);
     width: 100%;
     height: 250px;
