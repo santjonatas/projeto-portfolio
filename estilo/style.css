@@ -43,6 +43,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    background-position: center;
     margin: 0px;
     background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
 }
@@ -139,7 +140,7 @@ body{
 
 .menu{
     margin: auto;
-
+    background-position: center;
 
     display: flex;
     flex-direction: column;
@@ -148,7 +149,7 @@ body{
 }
 
 #inicio-da-pagina{
-    margin: auto;
+    
 
 
 
@@ -400,7 +401,7 @@ body{
 }
 
 #aba-sobre-mim{
-    margin: auto;
+    
     
 
 
@@ -536,7 +537,7 @@ body{
 }
 
 #aba-mais-inf{
-    margin: auto;
+    
     background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
     background-position: center;
     
@@ -709,7 +710,7 @@ body{
 }
 
 #aba-projetos{
-    margin: auto;
+    
 
 
 
@@ -902,7 +903,7 @@ body{
 
 
 #aba-formacao{
-    margin: auto;
+    
     background-image: linear-gradient(to left, #0e0e0e, #131313, #1b1b1b);
     background-position: center;
 
