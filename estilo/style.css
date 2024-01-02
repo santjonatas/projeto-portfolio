@@ -1514,6 +1514,7 @@ body{
     }
     #ola-mundo{
         font-size: 10px;
+        height: 15px;
     }
     #inicio-da-pagina{
         height: 840px;
@@ -1573,11 +1574,12 @@ body{
         font-size: 19px;
     }
     #aba-sobre-mim{
-        height: 1000px;
+        height: 1200px;
     }
     #mais-sobre-mim{
         gap: 2%;
-        height: 870px;
+        height: 1100px;
+        width: 300px;
         flex-direction: column;
 
     }
@@ -1593,8 +1595,8 @@ body{
     );
     }
     #aba-texto-sobre-mim{
-        width: 400px;
-        height: 550px;
+        width: 300px;
+        height: 750px;
         margin-top: 10px;
     }
     .texto-sobre-mim{
@@ -1628,39 +1630,48 @@ body{
     #projetos{
         flex-direction: column;
         height: 1800px;
-        width: 450px;
+        width: 300px;
         flex-wrap: wrap;
     }
     .item-projeto{
-        width: 400px;
-        height: 500px;
+        width: 290px;
+        height: 550px;
     }
     .descricao-do-projeto{
         font-size: 19px;
     }
     .border-aba-skills{
-        width: 427px;
+        width: 277px;
     }
     #hard-skills{
-        width: 420px;
+        width: 270px;
     }
     #soft-skills{
-        width: 420px;
+        width: 270px;
+    }
+    .item-hard{
+        width: 250px;
+    }
+    .item-soft{
+        width: 250px;
     }
     #gradient-meu-curso{
-        width: 427px;
+        width: 300px;
     }
     #meu-curso{
-        width: 420px;
+        width: 293px;
     }
     #descricao-curso{
-        width: 405px;
+        width: 283px;
     }
     #contem-ctts{
         height: 120px;
         flex-direction: column;
         gap: 15px;
-        width: 450px;
+        width: 300px;
+    }
+    #linha-horizontal-text{
+        width: 300px;
     }
 }
 
