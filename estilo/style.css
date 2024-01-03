@@ -1518,6 +1518,12 @@ body{
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+    #cabecalho{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
     #aba-cabecalho{
         background-color: rebeccapurple;
         width: 50%;
@@ -1537,11 +1543,14 @@ body{
         height: 840px;
 
         margin: auto;
+        width: 100%;
     }
     .perfil{
         gap: 1%;
         height: 650px;
         flex-direction: column;
+
+        width: 100%;
     }
     .foto-de-perfil{
         margin: 5px;
@@ -1596,6 +1605,7 @@ body{
         height: 1200px;
 
         margin: auto;
+        width: 100%;
     }
     #mais-sobre-mim{
         gap: 2%;
@@ -1640,6 +1650,7 @@ body{
         height: 900px;
 
         margin: auto;
+        width: 100%;
     }
     #skills{
         flex-direction: column;
@@ -1650,6 +1661,7 @@ body{
         height: 1800px;
 
         margin: auto;
+        width: 100%;
     }
     #projetos{
         flex-direction: column;
@@ -1681,6 +1693,7 @@ body{
     }
     #aba-formacao{
         margin: auto;
+        width: 100%;
     }
     #gradient-meu-curso{
         width: 300px;
@@ -1693,6 +1706,7 @@ body{
     }
     #aba-contato{
         margin: auto;
+        width: 100%;
     }
     #contem-ctts{
         height: 120px;
