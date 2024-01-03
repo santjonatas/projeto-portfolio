@@ -1526,11 +1526,11 @@ body{
     }
     #aba-cabecalho{
         background-color: rebeccapurple;
+        width: 350px;
     }
     #aba-ola-mundo{
         margin-bottom: 10px;
         height: 40px;
-
         margin: auto;
     }
     #ola-mundo{
