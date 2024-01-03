@@ -1354,7 +1354,7 @@ body{
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px){
+@media (min-width: /*481*/320px) and (max-width: 768px){
     #aba-cabecalho{
         background-color: yellow;
         
@@ -1514,6 +1514,7 @@ body{
     }
 }
 
+/*
 @media (min-width: 320px) and (max-width: 480px){
     #cabecalho{
         width: 100%;
@@ -1714,3 +1715,5 @@ body{
         width: 300px;
     }
 }
+
+*/
