@@ -70,7 +70,7 @@ body{
     /* 
     gap: 75%;
     */
-    width: 1349px;
+    width: 100%;
     height: 61px;
     position: fixed;
     color: white;
@@ -1167,10 +1167,7 @@ body{
 @media (min-width: 1025px) and (max-width: 1200px){
     #aba-cabecalho{
         background-color: green;
-        /*
-        width: 1025px;
-        */
-        width: 91%;
+        
     }
     .perfil{
         gap: 1%;
@@ -1200,7 +1197,7 @@ body{
 @media (min-width: 769px) and (max-width: 1024px){
     #aba-cabecalho{
         background-color: red;
-        width: 80%;
+        
     }
     #aba-ola-mundo{
         margin-bottom: 10px;
@@ -1360,7 +1357,7 @@ body{
 @media (min-width: 481px) and (max-width: 768px){
     #aba-cabecalho{
         background-color: yellow;
-        width: 60%;
+        
     }
     #aba-ola-mundo{
         margin-bottom: 10px;
@@ -1526,7 +1523,7 @@ body{
     }
     #aba-cabecalho{
         background-color: rebeccapurple;
-        width: 350px;
+        
     }
     #aba-ola-mundo{
         margin-bottom: 10px;
