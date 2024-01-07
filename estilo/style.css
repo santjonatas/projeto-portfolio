@@ -1175,7 +1175,7 @@ body{
 
 
 
-
+/*
 @media (min-width: 1025px) and (max-width: 1200px){
     #aba-cabecalho{
         background-color: green;
@@ -1528,13 +1528,14 @@ body{
 
 
 @media (min-width: 320px) and (max-width: 480px){
+    
     #cabecalho{
         width: 100%;
+        
     }
     .menu{
-        /*
-        width: 100%;
-        */
+       
+        
     }
     #aba-cabecalho{
         background-color: rebeccapurple;
