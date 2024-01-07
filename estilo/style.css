@@ -164,8 +164,10 @@ body{
     justify-content: center;
 
     
+    /*
     width: 100%;
-
+    */
+    width: 1349px;
 
     padding-top: 60px;
 
@@ -1530,7 +1532,9 @@ body{
         width: 100%;
     }
     .menu{
+        /*
         width: 100%;
+        */
     }
     #aba-cabecalho{
         background-color: rebeccapurple;
